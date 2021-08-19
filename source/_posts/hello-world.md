@@ -12,4 +12,6 @@ This is a test post
 ## Something else
 - *foo*
 - **bar**
+- ~~baz~~
 
+That's it!
