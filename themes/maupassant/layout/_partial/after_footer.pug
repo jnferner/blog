@@ -30,14 +30,14 @@ if theme.canvas_nest.enable == true
     script(type='text/javascript', color=color, opacity=opacity, zIndex=zIndex, count=count,src='//cdn.jsdelivr.net/npm/canvas-nest.js/dist/canvas-nest.min.js')
 
 if theme.love == true
-    script(type='text/javascript',src='/js/love.js')
+    script(type='text/javascript',src='/blog/js/love.js')
 
 if theme.copycode == true
-    script(type='text/javascript',src='/js/copycode.js',successtext=__('copy_success_text'))
-    link(rel='stylesheet', type='text/css', href='/css/copycode.css')
+    script(type='text/javascript',src='/blog/js/copycode.js',successtext=__('copy_success_text'))
+    link(rel='stylesheet', type='text/css', href='/blog/css/copycode.css')
 
 if theme.external_css == true
-    link(rel='stylesheet', type='text/css', href='/css/external.css')
+    link(rel='stylesheet', type='text/css', href='/blog/css/external.css')
 
 if page.mathjax
   include mathjax.pug
