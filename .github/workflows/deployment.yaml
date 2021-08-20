@@ -21,10 +21,9 @@ jobs:
       - name: Deploy to Server
         uses: easingthemes/ssh-deploy@v2.1.7
         env:
-          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
           ARGS: "-avz --delete"
           SOURCE: "public"
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: ${{ secrets.REMOTE_TARGET }}
-          EXCLUDE: "/.git, /.github, /dist/, /node_modules/"
