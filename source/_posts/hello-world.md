@@ -2,9 +2,6 @@
 title: Hello World
 ---
 
-
-# Hello World
-
 This is a test post
 {% mathjax %}
 \frac{a}{b} = f(1)
