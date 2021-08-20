@@ -1,5 +1,5 @@
 ---
-title: continuous-deployment
+title: Setting up Continuous Deployment
 date: 2021-08-20 09:31:10
 categories:
     - devops
@@ -73,6 +73,10 @@ Make sure this works and that you have access to `/usr/share/html/blog`, otherwi
 Some sources claim that it is necessary to add your user to the `AllowUser` list in `/etc/ssh/sshd_config`:
 ```bash
 AllowUser   continuous-deployment root
+```
+Then, restart your SSH daemon:
+```
+systemctl restart sshd
 ```
 This step was not necessary for me, but it might help you.
 If this line does not yet exist and you add it yourself, make sure to include the root user, otherwise you will have locked yourself out of machine!
