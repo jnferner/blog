@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Jan Nils's Blog
+title: Jan Hohenheim's Blog
 subtitle: 'A cornucopia of whatever makes my gears turn'
 description: ''
 keywords:
-author: Jan Nils Ferner
+author: Jan Hohenheim
 language: en
 timezone: 'Europe/Zurich'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://www.jnferner.com
+url: https://www.hohenheim.ch
 root: /blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
