@@ -93,3 +93,5 @@ Thumbs.db
 # Hexo
 db.json
 /blog/
+## Maupassant config contains API keys and secrets
+_config.maupassant.yml
