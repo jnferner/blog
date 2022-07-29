@@ -9,7 +9,7 @@ tags:
     - theories
 ---
 
-![The mind's eye](assets/iris.jpg)
+![This post is about You: the mind's eye](assets/iris.jpg)
 
 Lorem ipsum dolor sit amet
 
@@ -25,7 +25,7 @@ For your convenience, here are the relevant links:
 
 ## Mysterianism
 
-In 1989 Colin McGinn asked himself "[Can We Solve the Mind–Body Problem?](https://doi.org/10.1093%2Fmind%2FXCVIII.391.349)". His humble conclusion: probably not[^1]. Probably never. In fact, even if we had the solution right in front of us, we might not be able to comprehend it as such. For all we know, someone might have already found out all there is to how consciousness arises in the brain, but we are doomed to never be happy with physical explanations for a phenomenon that seems so magical to us.  
+In 1989 Colin McGinn asked himself "[Can We Solve the Mind–Body Problem?](https://doi.org/10.1093%2Fmind%2FXCVIII.391.349)". His humble conclusion: probably not [^1]. Probably never. In fact, even if we had the solution right in front of us, we might not be able to comprehend it as such. For all we know, someone might have already found out all there is to how consciousness arises in the brain, but we are doomed to never be happy with physical explanations for a phenomenon that seems so magical to us.  
 While the fact that you are currently reading a blog post about more than one theory of consciousness already gives away that I do not agree with this view, I will do my best to explain it in good faith.  
 
 ### Intuition versus reality
@@ -42,8 +42,8 @@ You might interject: "Aha! But in contrast to a dog, we have the steady advance 
 
 Even if we already had the solution to the problem of consciousness right in front of us, we wouldn't accept it. Our own consciousness *feels* special, it feels so much as if we had a soul in us that we cannot but think of our mind as something otherwordly. No matter that I am a convinced determinist, I still feel so much as if I had free will that it borders on an irrational feeling of *knowing*. For this reason, we will never intuitively accept a theory of consciousness that explains us in terms of flesh and electricity, much less so in terms of a set of equations.
 
-[^1]: Actually, the essay states: *"The answer to the question that forms my title is therefore 'No and
-Yes'"*. This nuance is meant to allow the possibility that we might find the solution but just not accept it as such, see the paragraph after the footnote.
+[^1]: Actually, the essay states: *The answer to the question that forms my title is therefore No and Yes*. 
+This nuance is meant to allow the possibility that we might find the solution but just not accept it as such, see the paragraph after the footnote.
 
 [^2]: If you're interested in understanding the intuition, pay attention to the last few sentences of the linked paper, concerning the probability of two siblings being boys. Try to draw all the possible cases on paper, this should give you an intuition. The intuition for the aces is then just a natural extension of what you just did. Although calculating the actual numbers requires understanding of combinatorics, the intuition behind the result does not.
 
