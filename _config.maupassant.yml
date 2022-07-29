@@ -79,7 +79,7 @@ donate:
   paypal_url: ## Paypal URL, e.g. https://www.paypal.me/tufu9441
 post_copyright:
   enable: false ## If you want to display the copyright info after each post, please set the value to true and fill the following items on your need.
-  author: Jan Nils Ferner ## Your author name, e.g. tufu9441
+  author: Jan Hohenheim ## Your author name, e.g. tufu9441
   copyright_text: ## Your copyright text, e.g. The author owns the copyright, please indicate the source reproduced.
 love: false ## If you want the love to appear when you click anywhere, set the value to true.
 plantuml: ## Using PlantUML to generate UML diagram, must install hexo-filter-plantuml (https://github.com/miao1007/hexo-filter-plantuml).
@@ -97,12 +97,12 @@ menu:
   - page: archive
     directory: archives/
     icon: fa-archive
-  - page: about
-    directory: about/
-    icon: fa-user
-  - page: rss
-    directory: atom.xml
-    icon: fa-rss
+#  - page: about
+#    directory: about/
+#    icon: fa-user
+#  - page: rss
+#    directory: atom.xml
+#    icon: fa-rss
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, recent_comments and links.
   - search
@@ -113,12 +113,10 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - links
 
 links:
-  - title: site-name1
-    url: http://www.example1.com/
-  - title: site-name2
-    url: http://www.example2.com/
-  - title: site-name3
-    url: http://www.example3.com/
+  - title: My homepage with CVs and stuff
+    url: http://www.hohenheim.ch/
+  - title: GitHub
+    url: https://github.com/janhohenheim
 
 timeline:
   - num: 1
