@@ -81,6 +81,8 @@ This nuance is meant to allow the possibility that we might find the solution bu
 
 [^4]: The simulation hypothesis, which has surprisingly many parallels to conventional religions once you look for them, is the only one I can of that does not require Cartesian Dualism. This was today's edgy hot take, maybe I'll go into this in detail another day.
 
+[^5]: If this is not relatable, try listing something else. The important part for this exercise is that all methodical approaches must fail to produce all items and you must in the end solely rely on whatever your brain is doing when you're just trying to remember. Think tip-of-the-tongue phenomenon.
+
 ### And I don't buy it
 
 All that said, it seems to me that any claim that contains the word "never" is a bit bold. Putting such an emphasis on how we feel about ourselves is also too speculative for my taste. Sure, it is a strange situation to have a consciousness try to understand the phenomenon of consciousness through the less of its own consciousness. A [strange loop](#Strange-Loops-and-Tangled-Hierarchies), yes, but is this necessarily limiting us in any fundamental way?
@@ -92,14 +94,14 @@ TODO: Add ambiguous image like "My Wife and My Mother-in-Law". Just as I can fli
 
 Granted, I will probably always see my consciousness as magical, but that should not stop me from also knowing that it is not. Just as I have the ability to see the world as deterministic even though everything in my being screams against it, I believe one day someone will be able to see the way flesh and electricity, and even mere equations, give rise to consciousness
 
-### Stances
+### Stances (according to me)
 
-Topic | Stance
-------------
-Mind-Body Problem | Not able to be answered.     
-Chinese Room | Not able to be answered.  
-Philosophical Zombies | Conceivable, but their physical plausibility is not able to be answered.
-Teletransportation Paradox | Not able to be answered.
+| Topic | Stance |
+|-|-|
+| Mind-Body Problem | Not able to be answered. |
+| Chinese Room | Not able to be answered. | 
+| Philosophical Zombies | Conceivable, but their physical plausibility is not able to be answered. |
+| Teletransportation Paradox | Not able to be answered. |
 
 ## Cartesian Dualism
 
@@ -120,15 +122,49 @@ This theory of consciousness is quite different from the others discussed insofa
 On the other hand, physicalists are far from a generally accepted framework of consciousness, as this post should be able to tell you.
 
 
-### Stances
+### Stances (according to me)
 
-Topic | Stance
-------------
-Mind-Body Problem | The mind exists independedly of any physical reality, so the body doesn not give rise to it at all.     
-Chinese Room | Since physical stuff cannot create mind stuff, the chinese room is not conscious  
-Philosophical Zombies | Inconceivable.
-Teletransporter Paradox | Since mind stuff is indivisible, the person on the other end cannot be you. Physical stuff cannot create mind stuff, the person on the other end cannot be conscious, making them a philosophical zombie, since per the premise of the thought experiment they are indistinguishable from you. Since philosophical zombies are inconcievable, the premise must be flawed: such a teleporter cannot exist in the first place.
+| Topic | Stance |
+| - | - |
+| Mind-Body Problem | The mind exists independedly of any physical reality, so the body does not give rise to it at all. |
+| Chinese Room | Since physical stuff cannot create mind stuff, the chinese room is not conscious. |
+| Philosophical Zombies | Inconceivable. |
+| Teletransporter Paradox | Since mind stuff is indivisible, the person on the other end cannot be you. Physical stuff cannot create mind stuff, the person on the other end cannot be conscious, making them a philosophical zombie, since per the premise of the thought experiment they are indistinguishable from you. Since philosophical zombies are inconcievable, the premise must be flawed: such a teleporter cannot exist in the first place. |
 
+
+## Global Workspace Theory
+
+Think about what activities of your mind you can consciously perceive. You are aware of the images in front of your eye (or your [illusion thereof](#Predictive-Processing)). You can be aware of your emotions. You are aware of whether you're feeling a bit cold or too hot. You are aware of this sentence you're reading.  
+Now imagine all the things going on in your mind that are not currently part of your consciousness. There's passive information, like how this blog post started. If you think about it, you might recall the words, so the information must be stored in your brain. But had I not prompted you, you would probably not have thought about them. Similarly, even though you're not aware of it in this very moment, you can instantly bring the time you planned on going to bed today into your consciousness.  
+Then there's also activity that you cannot bring into your consciousness. You cannot perceive how your hypothalamus decides which hormones the pituary gland should secrete. You cannot perceive how a memory is formed or erased. Ever had the the feeling you were being watched, but did not know why you felt that way? Your brain apparently generated a hypothesis, but you had no access to it.  
+Think about the last movie you saw. Close your eyes and try to list as many names of characters in the movie as you can, including minor roles.  
+Done? Now ask yourself: what exactly happened when you tried to recall the names? If you're like me, flashes of some scenes might have popped into your head and some dialog started playing in your memories. The protagonists and villains came up instantly, and when remembering the story, some side characters will have come up as well. But the really interesting part is when you hit the metaphorical brick wall and know there are some missing names that you just cannot recall. You already went through the plot and all scenes you remember and are stuck. No methods are helping anymore. You concentrate on... something? And poof, at some point a new name comes into your mind after all. What happened the second before you remembered the name? Your mind was clearly doing something, otherwise you wouldn't have gotten a result, but the action is hidden to you [^5].  
+
+### The Theater of the Mind
+
+So, some things are part of our consciousness, some are not. This is often viewed through the metaphor of the [mind as a theater](https://www.sscnet.ucla.edu/comm/steen/cogweb/Abstracts/Baars_88.html).
+There is an audience in front of it, but they are kept in absolute darkness. The only people visible are the actors playing thoughts on the stage, because they are illuminated by the spotlight of consciousness. Sometimes an actor leaves the stage, sometimes another one enters. Sometimes the spotlight is smaller, sometimes bigger. But the spotlight always remains the only light in the room.  
+
+Different theories of consciousness interpret the metaphor in different ways. Global Workspace Theory interprets the audience as unconscious thinking modules of the brain. They might have discussions and do all sorts of things, but they are not under the spotlight and thus can only communicate with their neighbors. The actors are the items in your consciousness, and the stage they're on is the titular global workspace, visible to all other guests in the room.  
+
+The key idea here is that mental items like thoughts can be generated by different parts of the brain, but are locally confined. Through some mechanism, be it a heuristic of importance or a voting system, a thought can be "upgraded" and enter the global workspace. This makes it available to other brain areas and to your consciousness. The claim is ideed that the content of our consciousness is *identical* to the content of the global workspace.
+
+### A Small and Neat Idea
+
+You may have noticed that the given explanation does not address the Hard Problem of consciousness at all. One can argue that is doesn't address the Real Problem either, since it is not concerned with exploring how things appear to us, but only when. It only talks about the *contents* of consciousness, not consciousness itself.
+
+But it does offer a nice part of the grand puzzle. In my opinion, global workspace theory is such a nicely behaving hypothesis with a small scope and intuitive claim that it can easily be plugged into other more encompassing theories. Different authors offer specific mechanisms of where in brain the postulated global workspace is found, how information is pushed there and how it disperses through the brain. This lets researchers generate testable hypothesis and make the theory thus [realistically experimentally falsifiable](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2656553/), which makes it doubly sympathetic in my mind. We will see that many other theories, interesting though they might be, do not offer this essential feature.  
+
+There is one notable conflict though: this view predicts that an empty global workspace results in no contents of consciousness and vice versa. What then is the reported feeling of "pure consciousness devoid of content" reported during deep meditation? It seems like the only answer global workspace theory can provide is that there must still be some kind of item left, and thus the "devoidness of content" is a mere illusion.
+
+### Stances (according to me)
+
+| Topic | Stance |
+| - | - |
+| Mind-Body Problem | The contents of consciousness are the mental items that are made globally accessible to the brain. |
+| Chinese Room | No stance. |
+| Philosophical Zombies | Since such a zombie presumably also posesses a global workspace, it automatically has contents of consciousness. Thus, a zombie might be conceivable, but is not realistic |
+| Teletransporter Paradox | No stance on individuality or continuity, but since the global workspace was duplicated, the two versions of the passenger at least have identical contents of consciousness. But this is presumably given in the premise anyways. |
 
 ## Predictive Processing
 
@@ -142,7 +178,6 @@ panpsychism
 
 ## Attention Schema Theory
 
-## Global Workspace Theory
 
 ## Orchestrated Objective Reduction
 
