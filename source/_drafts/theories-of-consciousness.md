@@ -48,7 +48,7 @@ Whole books can be written about any of these, but we will be satisfied with a f
   - Hard: why is behavior accompanied by consciousness? If we can explain all human behavior as a series of processes going on in the neurons, why is there "a light on inside". Why are we not all philosophical zombies?
   - Real: how do the physical and the chemical processes in the brain result in the properties we associate with consciousness? This formulation evolved as an answer to the [perceived inadequacy of the easy and hard problems](https://aeon.co/essays/the-hard-problem-of-consciousness-is-a-distraction-from-the-real-one).
 
-I will summarize what, through my own conclusions, each of the theories presented has to say about some of these problems. I highlight them because the answer to what happens to zombies teleporting into chinese rooms has extreme consequences for AI and the possibility of mind uploads, which are topics that are very dear to me.
+I will summarize what, through my own conclusions, each of the theories presented has to say about some of these problems. I highlight them because the answer to what happens to zombies teleporting into chinese rooms has extreme consequences for the feasability of mind uploading, which is a topic very dear to me.
 
 All right, all cought up? Again, if you know these already, you might be angry at me for not doing them justice, I know. But they are not the focus of this post, so we must compromise.
 
@@ -93,8 +93,11 @@ Granted, I will probably always see my consciousness as magical, but that should
 
 ## Cartesian Dualism
 
-Long ago, René Descartes tried doubting as much as he could. He found he could doubt that his body existed; after all, an evil demon might be controlling his perceptions in a dream [^3]. But while he was doubting, he noticed that *he* was doubting. Since doubting cannot happen without someone doing it, he concluded that by the mere act of doubting he must fail to doubt his own existence. In fancy latin: "Dubito, ergo sum", or, its more famous cousin, "Cogito, ergo sum". Notice this refutes even the concievability of philosophical zombies, since by most definitions they could indeed think (as far as thought is the physical process through which behavior is generated) and would equally exclaim "cogito, ergo sum!" while not actually being.  
-All of this led Descartes to separate the world into res extensa, the physical stuff whose existance can be doubted, and res cogitans, the thinking stuff which must exist. This means that the thinking stuff can be concieved to be able to exist independent of any physical stuff. To explain this, Descartes concludes that consciousness resides in a different realm than physics.
+Long ago, René Descartes tried doubting as much as he could. He found he could doubt that his body existed; after all, an evil demon might be controlling his perceptions in a dream [^3]. But while he was doubting, he noticed that *he* was doubting. Since doubting cannot happen without someone doing it, he concluded that by the mere act of doubting he must fail to doubt his own existence. In fancy latin: "Dubito, ergo sum", or, its more famous cousin, "Cogito, ergo sum". Since the mind and body thus don't share a property, namely whether we can doubt their existence or not, he further concluded that mind and body cannot be the same thing.
+
+All of this led Descartes to separate the world into res extensa, the physical stuff whose existance can be doubted, and res cogitans, the thinking stuff which must exist. This means that the thinking stuff can be concieved to be able to exist independent of any physical stuff. To explain this, Descartes concludes that consciousness resides in a different realm than physics.  
+
+A solipsist might not not extend this privilege to others, since their exclamations of the cogito could still be the works of the evil demon. Animals in particular are often imagined as flesh robots with no mind stuff at all in this view.
 
 ### Does Batman Exist?
 
@@ -116,7 +119,7 @@ On the other hand, physicalists are far from a generally accepted framework of c
 | - | - |
 | Mind-Body Problem | The mind exists independedly of any physical reality, so the body does not give rise to it at all. |
 | Chinese Room | Since physical stuff cannot create mind stuff, the chinese room is not conscious. |
-| Philosophical Zombies | Inconceivable. |
+| Philosophical Zombies | Conceivable and realistic, they are just people without mind stuff |
 | Teletransporter Paradox | Since mind stuff is indivisible, the person on the other end cannot be you. Physical stuff cannot create mind stuff, the person on the other end cannot be conscious, making them a philosophical zombie, since per the premise of the thought experiment they are indistinguishable from you. Since philosophical zombies are inconcievable, the premise must be flawed: such a teleporter cannot exist in the first place. |
 
 
@@ -124,9 +127,9 @@ On the other hand, physicalists are far from a generally accepted framework of c
 
 Think about what activities of your mind you can consciously perceive. You are aware of the images in front of your eye (or your [illusion thereof](#Predictive-Processing)). You can be aware of your emotions. You are aware of whether you're feeling a bit cold or too hot. You are aware of this sentence you're reading.  
 Now imagine all the things going on in your mind that are not currently part of your consciousness. There's passive information, like how this blog post started. If you think about it, you might recall the words, so the information must be stored in your brain. But had I not prompted you, you would probably not have thought about them. Similarly, even though you're not aware of it in this very moment, you can instantly bring the time you planned on going to bed today into your consciousness.  
-Then there's also activity that you cannot bring into your consciousness. You cannot perceive how your hypothalamus decides which hormones the pituary gland should secrete. You cannot perceive how a memory is formed or erased. Ever had the the feeling you were being watched, but did not know why you felt that way? Your brain apparently generated a hypothesis, but you had no access to it.  
+Then there's also activity that you cannot bring into your consciousness. You cannot perceive how your hypothalamus decides which hormones the pituary gland should secrete. You cannot perceive how a memory is formed or erased. Ever had the the feeling you were being watched, but did not know why you felt that way? Your brain apparently generated a hypothesis, but you had no access to it [^5].  
 Think about the last movie you saw. Close your eyes and try to list as many names of characters in the movie as you can, including minor roles.  
-Done? Now ask yourself: what exactly happened when you tried to recall the names? If you're like me, flashes of some scenes might have popped into your head and some dialog started playing in your memories. The protagonists and villains came up instantly, and when remembering the story, some side characters will have come up as well. But the really interesting part is when you hit the metaphorical brick wall and know there are some missing names that you just cannot recall. You already went through the plot and all scenes you remember and are stuck. No methods are helping anymore. You concentrate on... something? And poof, at some point a new name comes into your mind after all. What happened the second before you remembered the name? Your mind was clearly doing something, otherwise you wouldn't have gotten a result, but the action is hidden to you [^5].  
+Done? Now ask yourself: what exactly happened when you tried to recall the names? If you're like me, flashes of some scenes might have popped into your head and some dialog started playing in your memories. The protagonists and villains came up instantly, and when remembering the story, some side characters will have come up as well. But the really interesting part is when you hit the metaphorical brick wall and know there are some missing names that you just cannot recall. You already went through the plot and all scenes you remember and are stuck. No methods are helping anymore. You concentrate on... something? And poof, at some point a new name comes into your mind after all. What happened the second before you remembered the name? Your mind was clearly doing something, otherwise you wouldn't have gotten a result, but the action is hidden to you [^6].  
 
 ### The Theater of the Mind
 
@@ -164,6 +167,56 @@ panpsychism
 
 ## Strange Loops and Tangled Hierarchies
 
+This one is tough to write about without rambling on, since the book introducing this view, "Gödel, Escher, Bach", is my favorite piece of writing in the whole world. But I'll do my best.
+
+Whatever theory of the mind one might favor, it seems apparent that we have some kind of inner representation of objects and concepts. Let's call these representation "symbols". Not as in mathematical or written symbols, but as in a symbolic unit of meaning. For example, when you look at a fork, you cannot but instantly recognize it as a fork. Your mind fetches this "fork" symbol automatically and binds it to the image of the fork. We will call this "activating a symbol". Symbols can also be of abstract objects like democracy or of the color yellow. Note that we are not making any claim about where and how this symbol is manifested in your brain, we are just noting that this phenomenon seems to exists.
+
+It also seems apparent that we can create new symbols. Here's a fun fact: did you know the Swiss have a unique national sport called ["Hornussen"](https://www.youtube.com/watch?v=TwTDWnq2ZBI)? It's like a mix of gold and baseball. Instead of a ball, you have a small light puck. The player beating it must wildly swing a big wiggly stick with a small head around to hit the puck. The stick looks like a gigantic bottle cleaning brush and handles like a 2 meter long bendy ruler, so the act of swinging it around looks quite fun.  
+The puck then flies into the field while doing a buzzing noise, which is why its called a "Hornuss", a local Swiss word for hornet. In the field waits the other team holding big stop signs, with which they try to catch the Hornuss. If they fail and the Hornuss lands, they get one penalty point per 10 meters of flying distance. The team with the least total points wins.
+
+And just like that, you created a new symbol for this new sport you've probably never heard of. Symbols also seem to be interconnected. When you think about Hornussen, which other symbols instantly come into your mind? For me it's open fields, two teams and a silly stick. Thinking about these symbols in turn shows their connections, ad infinitum. 
+
+Seen like this, our brain is a machine for creating, activating, connecting and manipulating symbols.
+
+### Interactions with the world
+
+Imagine a very young child called Douglas and his friend playing with a ball. To do so, it seems plausible that they must either already possess a symbol for "ball" or are forming one right now, while playing. The friend decides to bounce the ball off a wall and see what happens. It throws the ball, which flies towards the wall, bounces off and returns to the child. While watching and laughing, Douglas' symbol creating mind starts forming symbols for "bouncy", connected to "ball" [^7], and "thrower", connected to the symbol Douglas created for his friend.  
+Excited, Douglas wants to try as well. He throws the ball, not as straight as his friend did, but well enough to the wall. Just as before, the ball bounces back and lands at his feet. His symbol for "bouncy" gets strenghened and is still connected to "wall". But what is the symbol for "thrower" connected to now? If he didn't have a symbol for it yet, this is a magical moment: Douglas just formed a symbol for himself, the "I". While growing up, Douglas' symbol for "I" will become more complex. At around the age of 4, his theory of mind will be [strong enough to know that just because he knows something doesn't mean everyone else knows it too](https://www.youtube.com/watch?v=YGSj2zY2OEM). The video I linked is extremely cute, please take a break from reading and watch it.  
+Back? Alright. This meta-understanding of his own knowledge means that it makes sense to connect his "I" symbol with all knowledge he has, which is all his symbols. But "all his symbols" includes "I" as well, making it an endless recursion. We can come to this conclusion via another route as well: to think ahead of time about his choices, Douglas must be able to simulate parts of the world, including him. But, to simulate himself, he must simulate that he knows about himself, which means that the symbol for his simulated "I" must also include a symbol for himself.
+
+This "I" symbol is from now on always activated as the actor suspected behind whatever course of action the processes in the brain are following.
+
+### Strange Loops and where to find them
+
+This kind of recursiveness, where you can descend and descend a hierarchy only to find yourself right where you started, is called a "strange loop", and can be found in the paintings of M.C. Esher, the music of J.S. Bach and the proof of the incompleteness theorem of Kurt Gödel. The system of symbols containing a strange loop is called a "tangled hierarchy" [^8].
+
+The central claim of the theory is that the vague feeling of being consciousness is nothing but the qualia resulting from the "I" symbol being active and thus telling you that there is an autonomous agent responsible for what you do, namely "I". In this sense, the "I" is a complete illusion, maybe even more so than in the other theories.
+
+All of this does not require a meat hardware, of course. In fact, any sufficiently powerful system capable of a) creating symbols and b) interacting with the world will inevitably create an "I" symbol. The more sophisticated the ability to manipulate symbol and the more possibilities for interaction the system has, the more complex the tangled hierarchy will be and by extent, the more complex the "I" symbol will be. The theory claims that this complexity is what makes us feel like we are very conscious. If consciousness itself is an illusion, the complexity of the illusion will determine how convincing it is.
+
+### Beyond the own body
+
+There are some very interesting concequences of this view. The first one is that all systems containing symbols can be placed in a hierarchy of ascending consciousness. This of course depends on what which organisation of information you precisely define as "symbol", which is intentionally left blank to be filled by neuroscience since, again, it seems reasonable to assert that they must somehow exist. But at least for humans, this forces us to conclude that babies are less conscious than children, that children are less conscious than adults and that some adults are more conscious than others. This puts an interesting twist on the trolley problem that forces one to pick between a group of adults and a group of children.
+
+The most radical consequence however comes from the fact that we can not only simulate ourself in hypothetical situations, but others as well. But to simulate someone else, I must also simulate their consciousness, which means I must simulate the strange loop of their "I" symbol. But activating an "I" symbol is exactly what we defined as consciousness before! This means that simulating another person, for example when pretending to be them, remembering them, dreaming of them, thinking about what they would do in a situation, etc. runs a low-fidelity version of their consciousness. This is very easy to dismiss because of how unintuitive it is, but give it a try. Think about the closest person to you that you know. Look at the room you're in. Now, pretend as realistically as you can to be that person for 60 seconds. Set a timer so you don't have to think about the time. Think what they would think while looking around. Don't think about what exactly would go through their mind, just think it directly.
+
+Done? The argument is that for this short moment, your consciousness took a back seat and another was active. The only reason it might not feel like it, is that you never lost your sense of agency and that you can remember the experience afterwards.
+
+In this sense, the teletransportation paradox is real and very mundane. You already exist multiple times: one version is inside your own brain, with a very high complexity, but hundreds of versions are in the brains of your friends and family. It also means that when you die, it is not as if a candle is extinguished, but as a fire slowly burning out. Every time your close ones gather to reminisce about you, they refresh their memories of you, exchange information about you that some might not have had and thus strenghten their symbols of you.  
+And no matter if you buy the theory or not, you have to admit one thing: that is a damn beautiful thought.
+
+### Stances
+
+This time, the stances come directly from the horse's mouth, since they are all addressed in the book "I Am a Strange Loop" (2007)  
+
+| Topic | Stance |
+| - | - |
+| Mind-Body Problem | The body is a machine for producing symbols of reality. The symbol representing the "I" being active feels as if we were an autonomous actor |
+| Chinese Room | If the algorithm can in fact always produce a perfectly human answer, it stands to reason it must be able to create symbols and simulate interactions of itself with the world. After all, you can explain to it what Hornussen is and how it would imagine itself playing it. Thus, it must be able to create an "I" symbol and is thus conscious. |
+| Philosophical Zombies | Via the same argument as with the Chinese Room, the behavior of the zombie means it must have an "I" symbol and is thus conscious. The zombie is this not even conscievable. |
+| Teletransporter Paradox | Both people are equally you. It's okay to kill th version on Earth, since this means nothing more than a few seconds of memory are lost. Don't fear the reaper. |
+
+
 ## Attention Schema Theory
 
 
@@ -172,7 +225,7 @@ panpsychism
 ## Conclusion
 
 
-[^0]: Not to be confused with a Chinese person, pardon the pun.
+[^0]: Not to be confused with a Chinese person; those are definitely conscious.
 
 [^1]: Actually, the essay states that "The answer to the question that forms my title is therefore 'No' and 'Yes'".   
 This nuance is meant to allow the possibility that we might find the solution but just not accept it as such, see the paragraph after the footnote.
@@ -183,4 +236,10 @@ This nuance is meant to allow the possibility that we might find the solution bu
 
 [^4]: The simulation hypothesis, which has surprisingly many parallels to conventional religions once you look for them, is the only one I can of that does not require Cartesian Dualism. This was today's edgy hot take, maybe I'll go into this in detail another day.
 
-[^5]: If this is not relatable, try listing something else. The important part for this exercise is that all methodical approaches must fail to produce all items and you must in the end solely rely on whatever your brain is doing when you're just trying to remember. Think tip-of-the-tongue phenomenon.
+[^5]: A cool example of this is [hemispatial neglect](https://pubmed.ncbi.nlm.nih.gov/3205302/)
+
+[^6]: If this is not relatable, try listing something else. The important part for this exercise is that all methodical approaches must fail to produce all items and you must in the end solely rely on whatever your brain is doing when you're just trying to remember. Think tip-of-the-tongue phenomenon.
+
+[^7]: And possibly "wall", until the day he throws a plate at the wall and learns that the wall is in fact not responsible for the bouncy characteristic of certain materials, instead getting his "scolding" symbol activated
+
+[^8]: Or more specifically a heterarchy, which is an organization where an item cannot have a unique rank in comparison to others. The item has either no rank or multiple different ones.
