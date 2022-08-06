@@ -213,11 +213,37 @@ This time, the stances come directly from the horse's mouth, since they are all 
 | - | - |
 | Mind-Body Problem | The body is a machine for producing symbols of reality. The symbol representing the "I" being active feels as if we were an autonomous actor |
 | Chinese Room | If the algorithm can in fact always produce a perfectly human answer, it stands to reason it must be able to create symbols and simulate interactions of itself with the world. After all, you can explain to it what Hornussen is and how it would imagine itself playing it. Thus, it must be able to create an "I" symbol and is thus conscious. |
-| Philosophical Zombies | Via the same argument as with the Chinese Room, the behavior of the zombie means it must have an "I" symbol and is thus conscious. The zombie is this not even conscievable. |
-| Teletransporter Paradox | Both people are equally you. It's okay to kill th version on Earth, since this means nothing more than a few seconds of memory are lost. Don't fear the reaper. |
+| Philosophical Zombies | Via the same argument as with the Chinese Room, the behavior of the zombie means it must have an "I" symbol and is thus conscious. The zombie is in this view not even conscievable. |
+| Teletransporter Paradox | Both people are equally you. It's okay to kill the version on Earth, since this means nothing more than a few seconds of memory are lost. Don't fear the reaper. |
 
 
 ## Attention Schema Theory
+
+The brain is constantly bombarded by external and internal input. With this gigantic flow of data, it is impossible to treat them all the same way; the brain has to prioritize. It does this by [upregulating some signals and downregulating others](https://pubmed.ncbi.nlm.nih.gov/18694779/). Attention Schema Theory defines *attention* as this upregulated data. It then postulates that there probably exists a control mechanism in the brain that shifts attention as needed. Since it is assumed that the brain creates models of physical and abstract objects in the world, it would make sense to create such a model of its own attention. This model, called the *attention schema*, is fed to and manipulated by the controlling agent. The model is not perfect, but it is a good and fast enough approximation to be useful in guiding attention. The attention schema resides within the [Global Workspace](#Global-Workspace-Theory) we've discussed before. Thus, the contents of the attention schema are at the same time the contents of consciousness. 
+The feeling of this *being me* comes from the imperfections in the simplified model of attention. Just as we have an imperfect model of our body, we have an imperfect model of our attention, of our experience available to all our brain regions. Thus, if anything came to ask whatever part of our brain if it had an experience, it would state "yes, I have data right here saying that I have an experience!". This is the illusion of consciousness.
+
+Since our ancestors evolved in social contexts, it would make sense to be able to have models of other organism's attention. We have already evolved a way to model our own attention, namely the attention schema, so we can use the same trick to create attention schemata of others. When these models gather our attention, they are moved to the global workspace, where they also become part of our consciousness. 
+
+### Strange Loops all the Way Down
+
+Since in the view of Attention Schema Theory consciousness is nothing but an attention schema running on global workspace, we land at the same conclusion as we did with [Strange Loops](#Beyond-the-own-Body). Our low fidelity models of other people are also conscious.  
+Another similarity of the two theories is the necessicity of attention, thus attention schemata and thus consciousness in brains:   
+"Indeed, it is tempting to conclude that attention is a universal feature of brain function, acting within and between any dimensions in which the brain can process information." [(Graziano 2015)](https://www.frontiersin.org/articles/10.3389/fpsyg.2015.00500/full)
+
+The parallels should be no surprise. Attention Schema Theory is basically a more rigorous combination of strange loops and global workspace theory. We just use a strange loop between the actively changing attention and the descriptive attention schema instead of the strange loop of "I". Our model of attention contains our attention, which contains our model of attention, etc. The following quote uses the term "awareness" instead of "consciousness", but it puts it quite nicely[^9]:
+
+"Attention is an active process, a data-handling style that boosts this or that chunk of information in the brain. In contrast, awareness is a description, a chunk of information, a reflection of the ongoing state of attention. Yet because of the strange loop between awareness and attention, the functions of the two are blurred together. Awareness becomes just as much of an active controller as attention. Awareness helps direct signals in the brain, enhancing some, suppressing others, guiding choices and actions." (Consciousness and the Social Brain, Graziano 2013)
+
+### Stances (according to me)
+
+The stances end up being the same as for strange loops.
+
+| Topic | Stance |
+| - | - |
+| Mind-Body Problem | The brain's information is in a competition for attention. Winners are summarized in a model called the attention schema, which resides in the global workspace and is thus the content of our consciousness |
+| Chinese Room | Theory of mind is a product of us modelling our own attention. Thus, consciousness is the foundation of social intelligence [(Graziano 2017)](https://www.frontiersin.org/articles/10.3389/frobt.2017.00060/full). Since the Chinese Room demonstrates social intelligence, it must be conscious. |
+| Philosophical Zombies | Via the same argument as with the Chinese Room, the behavior of the zombie means it must have a model of its own attention to be able to model others'. The zombie is in this view not even conscievable. |
+| Teletransporter Paradox | Both people are equally you, since the contents of their global workspace are identical. It's okay to kill the version on Earth, since this means nothing more than a few seconds of memory are lost. Don't fear the reaper. |
 
 
 ## Orchestrated Objective Reduction
@@ -236,10 +262,13 @@ This nuance is meant to allow the possibility that we might find the solution bu
 
 [^4]: The simulation hypothesis, which has surprisingly many parallels to conventional religions once you look for them, is the only one I can of that does not require Cartesian Dualism. This was today's edgy hot take, maybe I'll go into this in detail another day.
 
-[^5]: A cool example of this is [hemispatial neglect](https://pubmed.ncbi.nlm.nih.gov/3205302/)
+[^5]: A cool example of this is [this case study of hemispatial neglect](https://pubmed.ncbi.nlm.nih.gov/3205302/). Emphasis on the part with the house.
 
 [^6]: If this is not relatable, try listing something else. The important part for this exercise is that all methodical approaches must fail to produce all items and you must in the end solely rely on whatever your brain is doing when you're just trying to remember. Think tip-of-the-tongue phenomenon.
 
 [^7]: And possibly "wall", until the day he throws a plate at the wall and learns that the wall is in fact not responsible for the bouncy characteristic of certain materials, instead getting his "scolding" symbol activated
 
 [^8]: Or more specifically a heterarchy, which is an organization where an item cannot have a unique rank in comparison to others. The item has either no rank or multiple different ones.
+
+[^9]: Attention Schema Theory uses "awareness" everytime I use "consciousness" in its description, the distinction is only very slight. I find the terms "awareness" and "attention" too easy to mix up, so I stick with consciousness in this post.
+
