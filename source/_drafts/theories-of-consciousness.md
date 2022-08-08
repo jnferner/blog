@@ -163,7 +163,159 @@ active inference / free energy principle / Bayesian Brain
 current state / criticism
 
 ## Integrated Information Theory
-panpsychism
+
+This one is special, because it is the only theory on this list that promises to produce a objectively quantifiable number, Φ (Phi)[^11], that tells you how conscious not just any human, but any system is. When I first heard about this theory, it felt to me as if Φ might as well be magic, since I only learned its derivation in very broad strokes. As a consequence, it was hard for me to give it a charitable view. Since I want to give you a fairer introduction, this part of the post will contain quite some maths. For people wo did just a bit of probability theory, this should all be familiar. If you don't feel like looking at equations today, you can safely skip them all and still understand everything. I just provide them to show you how to, in principle, calculate the measures proposed by the theory for actual examples with actual numbers. At least for me, doing that demystifies a difficult concept like nothing else.
+
+I will be using the methods described in the original publication of the theory [(Tononi 2004)](https://bmcneurosci.biomedcentral.com/articles/10.1186/1471-2202-5-42). Since it was first proposed, many years have passed and brought new iterations and refinements to the calculation of Φ. Since these were additive and designed to implement the existing ideas more robustly, the calculations got more complicated. I don't think that this changed the core of the maths behind it that much. Thus, I will skip these new details and just focus on the originals, trading accuracy for clarity. For reference, [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6080800/bin/pcbi.1006343.s001.pdf) is the specification for how to calculate Φ in the current version at the time of writing.
+
+### Information and Entropy
+
+Each time you experience consciousness, there is a near endless amount of experiences you are not having, but could be having. A simple example is that right now, you are experiencing reading this blog post and thus (probably) missing the experience of playing videogames, doing a headstand, doing a headstand while playing videogames or commanding the Royal Malaysian Air Force. Not all of these are realistic, but they are all possible in the sense that your brain is capable of experiencing them given the right circumstances. 
+
+This insight is formalized as your consciousness carrying *information* by virtue of being in a specific state distinct from others. The idea of information theory is a well developed one, so we can use a measure called *Shannon entropy* to calculate how much information a given system has. The entropy *H* of a random variable *x* with a known probability *p(x)* can be expressed as  
+{% katex %}
+H(x) := E[-\log_2 p(x)] = -\sum_{i=1}^N p(x_i) \log_2 p(x_i)
+{% endkatex %}  
+If all of our outcomes are just as likely, this simplifies to:  
+{% katex %}
+H(x) = -\sum_{i=1}^N p(x_i) \log_2 p(x_i) = -\sum_{i=1}^N \frac{1}{N} \log_2 p(x_i)  \\
+= -\frac{1}{N} \sum_{i=1}^N\log_2 p(x_i) = -\frac{1}{N} N \log_2 p(x_i)  \\
+= -\log_2 p(x_i)
+{% endkatex %}  
+For example, the probability of a coin flip yielding heads is 0.5, so if the coin is flipped and it actually lands on heads, its information values is {% katex %}
+H(heads) = -\log_2 p(heads) = -\log_2 0.5 = 1
+{% endkatex %}  
+Let's repeat this for a fair die roll. Say we rolled a three. We get 
+{% katex %}
+H(three) = -\log_2 p(three) = -\log_2 \frac{1}{6} \approx 2.6
+{% endkatex %}  
+Aha! Seems like a die roll creates more information than a coin flip. You can easily see that the entropy is higher for rare events.  
+
+In other words, entropy can be interpreted as a measure for our surprise in the result. Imagine a friend comes up to you and tells you that they again didn't win the lottery. Are you surprised? Hardly. You probably don't know the exact probability of winning, but just hearing the word "lottery" created the assumption of a low probability of winning in your mind. [^10]
+### Integration
+
+Integration encodes the idea of how dependent systems are on each other. Think of a total system composed of a camera where each photodiode is its own subsystem. The camera's sensor has a gigantic amount of photodiodes, each either on or off. This means that it contains quite a bit of entropy! But this information is poorly integrated, since each photodiode subsystem is independent of all others; they don't influence each other at all. In contrast, imagine if each photodiode was forced to adopt the state of its neighbors. The whole camera would only be able to produce either a picture of an entirely white or black screen! The system now has now the same entropy as a coin flip, but a very high integration. 
+
+A measure of how dependent two variables are on each other is the *mutual information (I)*. If you imagine a Venn diagram of a system containing the variables A and B, the mutual information is the intersection of A and B. Thus:  
+{% katex %}
+    I(A,B) = H(A) + H(B) - H(A,B)
+{% endkatex %}
+where H(A) and H(B) are the marginal entropies and H(A,B) is the joint entropy. 
+
+### Mutual Information in Action
+
+Let's do an example. Say system A consists of me tossing a three-sided die. System B is a lamp that starts turned off (represented by 0) and is turned on when I roll a three (represented by 1). We can express all possible scenarios in a table, where we write down the probability of a certain combination of states A and B happening.  
+For example, the probability of A being 2 and B being 0 is one in three, because we have a probability of one in three, but the probability of A being 2 and B being 1 is zero, because we only turn the lamp on when we roll a three. These values are the *joint probabilities*
+
+| - | {% katex %} A = 1 {% endkatex %} | {% katex %} A = 2 {% endkatex %} | {% katex %} A = 3 {% endkatex %} |
+| - | - | - | - |
+| {% katex %} B = 0 {% endkatex %} | {% katex %}\frac{1}{3} {% endkatex %} |{% katex %}\frac{1}{3} {% endkatex %} | 0 |
+| {% katex %} B = 1 {% endkatex %} | 0 | 0 | {% katex %}\frac{1}{3} {% endkatex %} |
+
+The joint entropy uses all those joint probabilities inside the table. Reading the table from left to right, top to bottom, we get:  
+{% katex %}
+    H(A, B) = -\sum_{i=1}^N p(A_i) \sum_{j=1}^M p(B_j) \log_2 p(A_i, B_j)  \\
+    = -\frac{1}{3} \log_2 \frac{1}{3} -\frac{1}{3} \log_2 \frac{1}{3}- 0 \log_2 0  \\
+    - 0 \log_2 0 - 0 \log_2 0 - \frac{1}{3} \log_2 \frac{1}{3}  \\
+    = 3 \frac{1}{3} \log_2 \frac{1}{3} =  \log_2 \frac{1}{3}
+    \approx 1.6
+{% endkatex %}  
+
+We can extend this table by writing the sums of the probabilities in the rows or columns in the margins, yielding the aptly named *marginal probabilities*:
+
+| - | {% katex %} A = 1 {% endkatex %} | {% katex %} A = 2 {% endkatex %} | {% katex %} A = 3 {% endkatex %} | Marginals of B |
+| - | - | - | - | - |
+| **{% katex %} B = 0 {% endkatex %}** | {% katex %}\frac{1}{3} {% endkatex %} |{% katex %}\frac{1}{3} {% endkatex %} | 0 | {% katex %}\frac{2}{3} {% endkatex %} |
+| **{% katex %} B = 1 {% endkatex %}** | 0 | 0 | {% katex %}\frac{1}{3} {% endkatex %} | {% katex %}\frac{1}{3} {% endkatex %} |
+| **Marginals of A** | {% katex %}\frac{1}{3} {% endkatex %} |{% katex %}\frac{1}{3} {% endkatex %} | {% katex %}\frac{1}{3} {% endkatex %} | - |
+
+Now, we can calculate the constituents of the mutual infomation! The marginal entropy of A is just the entropy of the marginal probabilities of A:  
+{% katex %}
+    H(A) = -\sum_{i=1}^N p(A_i) \log_2 p(A_i) = - \frac{1}{3} \log_2 \frac{1}{3} - \frac{1}{3} \log_2 \frac{1}{3} - \frac{1}{3} \log_2 \frac{1}{3}  \\
+    = - 3 \frac{1}{3} \log_2 \frac{1}{3} = - \log_2 \frac{1}{3}  \\
+    \approx 1.6
+{% endkatex %}  
+In the same vein, we get the following for the marginal probabilities of B (try it for yourself if you've never done this before!):  
+{% katex %}
+    H(B) = -\sum_{i=1}^N p(B_i) \log_2 p(B_i) = - \frac{2}{3} \log_2 \frac{2}{3} - \frac{1}{3} \log_2 \frac{1}{3} \\
+    \approx 0.9
+{% endkatex %}  
+Finally, we can calculate our mutual information:  
+{% katex %}
+    I(A,B) = H(A) + H(B) - H(A,B) \approx 1.6 + 0.9 - 1.6 \approx 0.9
+{% endkatex %}
+
+### Effective Information
+
+For real, messy systems, we still need to build up a probability table. We built the last one by using a priori knowledge about the systems, namely that the lamp does not influence the die and that the die has a one in three chance of rolling any given number. In reality, we don't have this a priori knowledge; we don't know how likely each state of A or B is individually and we might be only able to measure them together. To do this, we use a little trick: to check the effect of A on B, we replace A by an entire random source of inputs and see how B behaves. Completely random means maximum entropy, thus we can formalize this as replacing A by {% katex %}A_{H_{max}}{% endkatex %}. Measuring the mutual information after this manipulation results in the *effective information (EI)*  [(Tononi 2004)](https://bmcneurosci.biomedcentral.com/articles/10.1186/1471-2202-5-42):  
+{% katex %}
+EI(A \rightarrow B) := I(A_{H_{max}}, B)
+{% endkatex %}  
+We can both the effect of A on B and vice versa. The sum of both is called the *cause/effect repertoire*:  
+{% katex %}
+EI(A \leftrightharpoons B) = EI(A \rightarrow B) + EI(B \rightarrow A)
+{% endkatex %}  
+Let's calculate this as well! Luckily for us, setting A to maximum entropy is the same as using a dice roll to determine the value of A, which we already do! So, for our scenario (but not in general!):  
+{% katex %}
+ EI(A \rightarrow B) = I(A_{H_{max}}, B) = I(A, B) \approx 0.9
+{% endkatex %}  
+
+The other way around is also easy, since we defined as our lamp not having any effect on the die. If we treat the state of B as a completely random value of either 0 or 1, i.e. a coin flip, we get the following probability table, reflective of two completely independent variables:
+
+| - | {% katex %} A = 1 {% endkatex %} | {% katex %} A = 2 {% endkatex %} | {% katex %} A = 3 {% endkatex %} | Marginals of {% katex %}B_{H_{max}}{% endkatex %} |
+| - | - | - | - | - |
+| **{% katex %} B_{H_{max}} = 0 {% endkatex %}** | {% katex %}\frac{1}{6} {% endkatex %} |{% katex %}\frac{1}{6} {% endkatex %} | {% katex %}\frac{1}{6} {% endkatex %} | {% katex %}\frac{3}{6}=\frac{1}{2} {% endkatex %} |
+| **{% katex %} B_{H_{max}} = 1 {% endkatex %}** | {% katex %}\frac{1}{6} {% endkatex %} | {% katex %}\frac{1}{6} {% endkatex %} | {% katex %}\frac{1}{6} {% endkatex %} | {% katex %}\frac{3}{6}=\frac{1}{2} {% endkatex %} |
+| **Marginals of A** | {% katex %}\frac{2}{6}=\frac{1}{3} {% endkatex %} |{% katex %}\frac{2}{6}=\frac{1}{3} {% endkatex %} | {% katex %}\frac{2}{6}=\frac{1}{3} {% endkatex %} | - |
+
+Since we already did all of these calculations, I'll skip the step-by-step explanations for how to get the effective information / mutual information now. Again, if you've never done this kind of probability juggling, feel free to try it for yourself! In any case, even if you don't want to calculate anything, take a moment and ask yourself which result you expect. 
+Given that B does not influence A, what do you think {% katex %}EI(B \rightarrow A){% endkatex %} should be?  
+
+The maths says:  
+{% katex %}
+H(A) \approx 1.6  \\
+H(B_{H_{max}}) = 1  \\
+H(A,B_{H_{max}}) \approx 2.6 \\
+\\
+EI(B \rightarrow A) = I(A, B_{H_{max}}) = H(A) + H(B_{H_{max}}) - H(A,B_{H_{max}}) \\
+\approx 1.6 + 1 - 2.6 = 0
+{% endkatex %}  
+Unsurprisingly, it is zero!  
+Thus, our cause/effect repertoire has the following value:
+{% katex %}
+EI(A \leftrightharpoons B) = EI(A \rightarrow B) + EI(B \rightarrow A) \approx 0.9 + 0 \approx 0.9
+{% endkatex %}
+
+### Partitions
+
+There remains one little problem. It is not yet clear on which level we define a system when looking at the brain. It seems to us that we have one consciousness, but why do we need to treat the whole brain as the system in question? Is it not plausible to define the cerebellum as a system as well? Or why not every lobe, I'm sure they are doing plenty of integrated information.  
+This is the final operation we need to get to the elusive Φ. We are interested in the minimum amount of integrated information we can produce in a system. Thus, we need to find the partition of a system that results in the smallest effective information. Think of it as electricity, pressure or water following the path of least resistance. Just in this case, it's information.
+
+We take a given system and partition it into two subsystems A and B. We then calculate the cause/effect repertoire as we did before. Repeat this for all possible subsystems. The smaller the systems, the smaller the cause/effect repertoire, so in order to compare them, we need a more sophisticated strategy than just comparing the numbers. In my opinion, this part changed the most over the years in comparison to the original publication. I'll skip the now obsolete details and summarize the new parts by saying we choose one of several different ways to measure how similar the cause/effect repertoires of the partitions are to those of the unpartitioned, whole system. Sum these up and you get Φ. Whichever way you divide the system, the smallest Φ you can get is the one that is the most cohesive unit of indivisibility, because it will lose the most information in proportion to its complexity.
+
+In our example, there is no way to partition anything, since A and B are already indivisible. Thus, our Φ is still {% katex %} \approx 0.9 {% endkatex %}.
+
+### Getting to Φ
+
+Hurray! We have a number! What now? Does this mean that our simple system of throwing a die and turning a lamp on is conscious? According to Integrated Information Theory, yes. The theory does not state that Φ correlates with consciousness; it states that Φ *is* consciousness.  
+I can't directly compare this Φ of 0.9 to the Φ of human consciousness however. Estimates for the latter using EEG data were made using the full up-to-date calculations, which produce significantly lower values than the old ones [(Kim  2018)](https://pubmed.ncbi.nlm.nih.gov/29503611/). Suffice to say that we can expect an estimation of human Φ to be astronomically higher than whatever we can compute for our little example system.  
+
+But here lies one of the biggest problems. We cannot realistically compute human Φ. Not only do we not know enough about the involved structures to describe them all, but even if we did, the calculations grow faster than any computer could calculate. Thus, we can only estimate Φ. And the current estimates unfortunately do not correlate well enough yet with what we know about consciousness to be able to predict anesthetic conditions.
+
+### Strange Consequences
+
+You may have noticed a theme of most theories leading us eventually to weird places. Integrated information theory is no exception. Notice that only the range of theoretically possible states of the involved systems is considered in Φ, but not the actually realized states. This means that were a neurosurgeon to attach a single neuron to your brain, Φ will rise. It will rise even if the neuron is positioned in a way that nearly guarantees it will never fire. No matter if this neuron stays inactive forever, you will be slightly more conscious through its existence. Were the neurosurgion to attach an extra region to your brain that was only active when you are playing Hornussen, you would possibly become quite a bit more conscious, even if you never played Hornussen once in your life.  
+
+The other consequence you will have noticed by now is that Φ implies panpsychism. Nearly everything in the universe can be seen as integrating some kind of information. This means that nearly everything is, to some degree conscious [^12]. The quality of consciousness must not be the same for everything, mind you. The qualia we experience are a byproduct of the specific information we are integrating, thus the alien consciousness of geological formations have very different qualia than us.
+
+### Stances (according to me)
+
+| Topic | Stance |
+| - | - |
+| Mind-Body Problem | Integrated information is consciousness itself. The brain is one of many systems doing this. |
+| Chinese Room | Since the Chinese room must integrate information to simulate a human response, it is conscious. In fact, it would be even if its responses were gibberish. |
+| Philosophical Zombies | Since its behavior is indistinguishable from conscious humans, it must integrate the present in its brain information in the same way and is thus just as conscious. A philosophical zombie is thus not concievable. |
+| Teletransporter Paradox | Since consciousness *is* integrated information, the same information being integrated in the same way must be the same consciousness. Killing the human on Earth is morally okay. |
 
 ## Strange Loops and Tangled Hierarchies
 
@@ -245,7 +397,7 @@ The stances end up being the same as for strange loops.
 | Mind-Body Problem | The brain's information is in a competition for attention. Winners are summarized in a model called the attention schema, which resides in the global workspace and is thus the content of our consciousness |
 | Chinese Room | Since the Chinese Room demonstrates social intelligence, it must be conscious. |
 | Philosophical Zombies | Via the same argument as with the Chinese Room, the behavior of the zombie means it must have a model of its own attention to be able to model others'. The zombie is in this view not even conscievable. |
-| Teletransporter Paradox | Both people are equally you, since the contents of their global workspace are identical. It's okay to kill the version on Earth, since this means nothing more than a few seconds of memory are lost. Don't fear the reaper. |
+| Teletransporter Paradox | Both people are equally you, since the contents of their global workspace are identical. It's okay to kill the version on Earth. |
 
 
 ## Orchestrated Objective Reduction
@@ -273,3 +425,9 @@ This nuance is meant to allow the possibility that we might find the solution bu
 [^8]: Or more specifically a heterarchy, which is an organization where an item cannot have a unique rank in comparison to others. The item has either no rank or multiple different ones.
 
 [^9]: Attention Schema Theory uses "awareness" everytime I use "consciousness" in its description, the distinction is only very slight. I find the terms "awareness" and "attention" too easy to mix up, so I stick with consciousness in this post.
+
+[^10]: Knowing this, you should be able to express Occam's Razor in terms of information theory! Imagine you receive a set of data and are asked to estimate its distribution. With the limited information you are given, you whip out several candidates. Knowing about Shannon entropy, [which one do you think you should pick?](https://bjlkeng.github.io/posts/maximum-entropy-distributions/)
+
+[^11]: The symbol "Φ" represents information "I" integrated in a system "O"
+
+[^12]: This line of thinking can lead to some very strange moral questions. Ever asked yourself if [electrons can suffer?](https://reducing-suffering.org/is-there-suffering-in-fundamental-physics/).
