@@ -402,6 +402,51 @@ The stances end up being the same as for strange loops.
 
 ## Orchestrated Objective Reduction
 
+Before we can properly start, we have to get some background on *Gödel's incompleteness theorem*. That's a scary name, but we can get through it fairly easily, I promise.  
+Like for [Integrated Information Theory](#Integrated-Information-Theory), this part will contain a few mathematical explanations. Again, they are not required to understand the theory, but should be able to demystify some of the concepts behind it. This stuff is really interesting in general, so I recommend going through the next two subsections. 
+
+### Gödel numbering and the big scary proof
+
+About a century ago, Berntrand Russel was very annoyed by the fact that math seemed to contain paradoxes. "Does the set of all sets that don't contain itself contain itself?", "Is this sentence wrong?" and all that. He saw self-referential structures as the root of all evil and redefined the formal language of mathematics in a way that he thought outlawed all of these. This new foundation was called the *Principia Mathematica (PM)*. 
+After he was done, a young mathematician named Kurt Gödel proved that the effort was futile. His key idea was finding a way in which a mathematical statement could uniquely be identified by a single big number.  
+
+Let's take the statement "1+1=2". First, we introduce the *Successor function* S(n), which means "the number after n", e.g. S(0) = 1, S(S(0)) = S(1) = 2, etc. Now we can rewrite the statement using less numbers: "S(0) + S(0) = S(S(0))". can be written as "(0+1) + (0+1) = (0+1+1)". We now need a Gödel numbering system. The following is an adaptation from the one presented in my favorite book, *Gödel, Escher, Bach*: 
+
+| Symbol | Number| Meaning|
+| - | - | - |
+|0 | 666| The number zero |
+|S | 123| The successor function |
+| + | 112| The Addition operator |
+|= | 111| The equality sign |
+| *space* | 0 | The separation between two symbols|
+
+Finally, we just translate every symbol into the corresponding number, e.g. "S(0)" consists of "S" and "0", which is thus "123 0 666", or, written together, 1230666.  
+The statement "1+1=2" can thus be written as "S(0) + S(0) = S(S(0))", which corresponds to "123 0 666 0 112 0 123 0 666 0 111 0 123 0 123 0 666", or, written together, 12306660112012306660111012301230666. This big number is the *Gödel number* of the original statement. The translation goes both ways; if I give you the number 123012306660112012306660112066601110123012301230666, you can figure out the original statement (try it! I recommend separating the string on every "0" for visual clarity like before). Thus the statement and the number are in a sense the exact same thing. This also goes for more complex statements such as "there are infinitely many prime numbers" or entire proofs such as Euclids now 2300 year old classic proof thereof.  
+
+Notice that 12306660112012306660111012301230666 is both a mathematical statement and a natural number at the same time. Thus we can make mathematical statements about the number, which translate into statements about the original statement. We have now successfully reintroduced self-referential structures! Let's do some mayham with it.  
+With some effort, we can generate a very weird statement that for a given Gödel number S basically says "The statement behind the number S is not provable within PM". We convert this statement into a huuuge number and call it G. Now we just plug G into itself: "The statement behind the number G is not provable", or in simpler terms, "This statement is not provable within PM". Since we want our math to be useful, we generally assume that any statement we can reach by following mathematical rules correctly is correct [^13], e.g. we will never reach bogus like "1 + 1 = 3" no matter how many operations we do. Since we reach the statement "This statement is not provable" by strictly following mathematical rules, it must be true.
+
+The consequence is quite shocking. Think about it: we have just demonstrated that there is at least one true mathematical statement that PM cannot ever prove. This seems highly counterintuitive and like a death sentence for PM. But it gets worse. Nothing is special about the way we used PM in the self-referential statement. In fact, we can plug in any mathematical system that allows simple arithmetic and logical operations and we will get the same result: there is always at least one statement that cannot be proven by a given mathematical system. That is the heart of Gödel's incompleteness theorem.
+
+In my opinion, this is one of the most humbling truths of reality. No matter how much we try, for any given system, there is always a black box of forbidden knowledge floating just beyond our reach.
+
+### The nature of computation
+
+Put a pin in the incompleteness theorem, we will need in a second again. For now, we jump to another young mathematician Alan Turing, who is about to invent computer science before joining the British efforts in the second world war, which would later repay him by killing him for the crime of being gay.  
+Turing asked himself how one could mathematically formalize the process of running any sort of algorithm. Since this was a time when "computer" was still a (predominantly female) job description for someone who mentally juggled numbers, the only way of running a big and complicated algorithm was to grab a pencil and some paper and mathematically transform one statement into the other, and the next, and the one after until you got your result. This is probably still how you learned to e.g. multiply! Turing split this process into two parts: the *tape* is an infinite piece of paper where one can write down symbols and the *head* is the set of instructions that will tell you what to do with this tape. The head is always hovering over a specific symbol on the tape and can read it, overwrite it, move to the last symbol or move to the next symbol. Notice that this models what you do with your actual, physical head when doing a calculation! Put a pin in this as well. This simple model is a *Turing machine*. Mind you that this machine is just a mathematical abstraction and not something you can actually build (have you got infinite tape at home?) or touch. 
+
+In the same year accross the Pacific, another mathematicial called Alonzo Church independedly tried to do the exact same thing and created a seemingly completely different model based on how he thought one could model mathematical functions themselves called lambda calculus [^14]. The two compared their models and realized that they were able to fully simulate both models in each other: lambda calculus can work as a Turing machine and Turing machines can evaluate lambda calculus. In fact, every sufficiently powerful model of computation to date has been shown to both be able to run a Turing machine and to be run on a Turing machine. This is a strong hint towards Church and Turing having successfully captured the essence of what it means to compute something. This is called the *Church-Turing thesis*, which can be paraphrased informally as "every calculation can be run on a Turing machine".
+
+### The concequences of computation
+
+Turing, who was a friend of Gödel, demonstrated something very similar to the incompleteness theorem: by imagining all possible Turing machines, we can list all possibly computable numbers. We can however prove that this list is incomplete, which means that there must be numbers that cannot be computed. Again, we face a kind of fundamentally hidden knowledge.
+
+Remember when I mentioned that the "head" of the Turing machine models your actual, physical head? Your head, which is to mean your brain, is also just running a set of instructions. Granted, the instructions of the brain are far more complex than anything you can calculate by hand, but in priciple, if we reject [Cartesian Dualism](#Cartesian-Dualism), we must confront the fact that our brain's state is only dependent on its last state and the physical laws that govern what the electrobiochemical components of your body do. Thus, every process of the brain, including consciousness, is a (very very complicated) kind of calculation in the end. If we accept this premise and invoke the Church-Turing thesis, we must accept that the brain *must* be able to be simulated on a computer. If you do not agree with this conclusion, you **must** also refute the Church-Turing thesis or assert that brain processes are fundamentally not calculable.
+
+### What if I do?
+
+Now we finally get to the theory of consciousness itself.
+
 ## Conclusion
 
 
@@ -431,3 +476,7 @@ This nuance is meant to allow the possibility that we might find the solution bu
 [^11]: The symbol "Φ" represents information "I" integrated in a system "O"
 
 [^12]: This line of thinking can lead to some very strange moral questions. Ever asked yourself if [electrons can suffer?](https://reducing-suffering.org/is-there-suffering-in-fundamental-physics/).
+
+[^13]: This property is called "consistency". Ironically, any sufficiently powerful mathematical system can only prove its own consistency if it is inconsistent. This means that consistency is just something we assume about modern math without being able to prove it. It's a pretty safe bet so far, but also a slightly terrifying prospect that we cannot prove that there is no way to get "1 + 1 = 3" by following math.
+
+[^14]: This divide of possible ways to do computation is affecting programming languages up to this day. The mathematical Turing machine was used to develop the physical von Neumann architecture, which is powering the device you're reading this post on right now. It also inspired procedural languages like C and by extent most of the modern programming languages. Lambda calculus in turn inspired functional languages like Haskell and by extent the functional aspects of many modern programming languages.
