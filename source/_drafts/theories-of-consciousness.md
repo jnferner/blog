@@ -441,22 +441,22 @@ In the same year accross the Pacific, another mathematicial called Alonzo Church
 
 Turing, who was a friend of Gödel, demonstrated something very similar to the incompleteness theorem: by imagining all possible Turing machines, we can list all possibly computable numbers. We can however prove that this list is incomplete, which means that there must be numbers that cannot be computed. Again, we face a kind of fundamentally hidden knowledge.
 
-Remember when I mentioned that the "head" of the Turing machine models your actual, physical head? Your head, which is to mean your brain, is also just running a set of instructions. Granted, the instructions of the brain are far more complex than anything you can calculate by hand, but in priciple, if we reject [Cartesian Dualism](#Cartesian-Dualism), we must confront the fact that our brain's state is only dependent on its last state and the physical laws that govern what the electrobiochemical components of your body do. Thus, every process of the brain, including consciousness, is a (very very complicated) kind of calculation in the end. If we accept this premise and invoke the Church-Turing thesis, we must accept that the brain *must* be able to be simulated on a computer. If you do not agree with this conclusion, you **must** also refute the Church-Turing thesis or assert that brain processes are fundamentally not calculable.
+Remember when I mentioned that the "head" of the Turing machine models your actual, physical head? Your head, which is to mean your brain, is also just running a set of instructions. Granted, the instructions of the brain are far more complex than anything you can calculate by hand, but in priciple, if we reject [Cartesian Dualism](#Cartesian-Dualism), we must confront the fact that our brain's state is only dependent on its last state and the physical laws that govern what the electrobiochemical components of your body do. Thus, every process of the brain, including consciousness, is a (very very complicated) kind of calculation in the end. If we accept this premise and invoke the Church-Turing thesis, we must accept that the brain *must* be able to be simulated on a computer. If you do not agree with this conclusion, you **must** also either refute the Church-Turing thesis or assert that brain processes are fundamentally not calculable. Both options are extraordinary claims, so be ready to bring extraordinary evidence.
 
 ### What if I do?
 
 Now we finally get to the theory of consciousness itself.
+Roger Penrose, who jointly received a Nobel price with other scientists in 2020 for their work on black holes, proposes that Turing machines cannot run consciousness. His argument goes as follows. Assume that the brain is running a calculable algorithm. If so, it must operate within some mathematical model. Thus, we can generate a Gödel statement that cannot be proven within this system. Suppose we actually generated this statement. Knowing the incompleteness theorem, it should be easy to see that the statement is true, even if its not provable by the human mind. But knowing that something is true *is* proving it, so we just proved it despite it being unprovable. A contradiction! Penrose deduces that whatever process the brain is running cannot be a regular calculation, is thus not computable and can thus not run on a Turing machine.
+
 
 
 ### Stances (according to me)
 
-The stances end up being the same as for strange loops.
-
 | Topic | Stance |
 | - | - |
 | Mind-Body Problem | TODO |
-| Chinese Room | Since the Chinese Room is able to prove Gödel's incompleteness theorem (in Chinese), it must run a non-computational algorithm. This means that it must run some kind of quantum computation, which *is* consciousness. |
-| Philosophical Zombies | Via the same argument as with the Chinese Room, the fact that zombie Gödel can still prove his incompleteness theorem means that his brain is running quantum computations, which *are* consciousness |
+| Chinese Room | Per the premise of the Chinese room, there is a computational algorithm running the room. Since consciousness cannot be run by a Turing machine, the Chinese room is not conscious. The room is also not able to generate Gödel statements that are unprovable in its mathematical system and can thus not fully emulate a human. |
+| Philosophical Zombies | It is possible to construct a brain "only" running a Turing machine, which would produce a philosophical zombie. It would however not be able to generate Gödel statements that are unprovable in its mathematical system and can thus not fully emulate a conscious human. Since the premise specifies that all human behavior is perfectly replicated, philosophical zombies are not conceivable |
 | Teletransporter Paradox | TODO |
 
 
