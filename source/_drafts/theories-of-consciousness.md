@@ -447,6 +447,20 @@ Remember when I mentioned that the "head" of the Turing machine models your actu
 
 Now we finally get to the theory of consciousness itself.
 
+
+### Stances (according to me)
+
+The stances end up being the same as for strange loops.
+
+| Topic | Stance |
+| - | - |
+| Mind-Body Problem | TODO |
+| Chinese Room | Since the Chinese Room is able to prove Gödel's incompleteness theorem (in Chinese), it must run a non-computational algorithm. This means that it must run some kind of quantum computation, which *is* consciousness. |
+| Philosophical Zombies | Via the same argument as with the Chinese Room, the fact that zombie Gödel can still prove his incompleteness theorem means that his brain is running quantum computations, which *are* consciousness |
+| Teletransporter Paradox | TODO |
+
+
+
 ## Conclusion
 
 
