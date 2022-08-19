@@ -159,8 +159,18 @@ There is one notable conflict though: this view predicts that an empty global wo
 
 ## Predictive Processing
 
+When you attend a typical introductory neuroscience lecture, the brain will usually be presented to you as a typical input / processing / output machine (TODO EVA referenz?) that processes information from the bottom up. The example given is almost always the visual system, courtesy of it being the most studied part of the brain. The sensory input in this case are the photons landing on your retina, sometimes as few as 7 (TODO reference), running up a cascade of cells until the on/off signal is turned into a frequency, which is sent to the visual cortex. The primary visual cortex processes the input by extracting lines with rotational degrees, which are further processed in the secondary and tertiary visual cortices into movements and shapes and at some point into the recognition of entire objects. If the object is a baseball you're trying to catch, the brain will now activate the primary motor cortex, which creates a high-level plan of action like "stretch out arm and open hand". The flow of information goes into regions that refine the plan like the cerebellum and specify which muscle groups should be involved. Finally, an output signal shoots down your spinal cord and activates many different muscles in your arm, hand, legs, etc. to catch the ball. Consciousness is usually entirely left out of this picture, leaving people wondering about why it's needed in the first place.
+
+### And now the other way around
+
+The predictive processing view turns this upside down. It posits that the rich world we perceive in our mind's eye is not the result of input being processed, but rather our prediction of how the world should look like given our current knowledge. Part of this prediction is anticipating how our sensors will be stimulated next. This is a predominantly top-down view!
+
+Of course, our predictions will never be perfect. If we subtract the actual sensoric inputs we get from their predicted patterns we get the *prediction error*. The brain can be seen as a machine with only one task: to reduce this prediction error [^15]. 
+
+
 active inference / free energy principle / Bayesian Brain
-current state / criticism
+homeostasis / emotions / attention as error weights (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3317264)
+current state / criticism 
 
 ## Integrated Information Theory
 
@@ -503,3 +513,5 @@ This nuance is meant to allow the possibility that we might find the solution bu
 [^13]: This property is called "consistency". Ironically, any sufficiently powerful mathematical system can only prove its own consistency if it is inconsistent. This means that consistency is just something we assume about modern math without being able to prove it. It's a pretty safe bet so far, but also a slightly terrifying prospect that we cannot prove that there is no way to get "1 + 1 = 3" by following math.
 
 [^14]: This divide of possible ways to do computation is affecting programming languages up to this day. The mathematical Turing machine was used to develop the physical von Neumann architecture, which is powering the device you're reading this post on right now. It also inspired procedural languages like C and by extent most of the modern programming languages. Lambda calculus in turn inspired functional languages like Haskell and by extent the functional aspects of many modern programming languages.
+
+[^15]: This tendency is described by the notoriously difficult to understand ["free energy principle"](https://slatestarcodex.com/2018/03/04/god-help-us-lets-try-to-understand-friston-on-free-energy/)
