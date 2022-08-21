@@ -169,14 +169,28 @@ Of course, our predictions will never be perfect. If we subtract the actual sens
 To this end, we havve two options: we can either update our mental model to a more accurate one or change the inputs we get so that they correspond to what we predicted them to be. Doing the first should be a straightforward idea, but the latter is more intriguing. We can either change the inputs themselves by e.g. downregulating them or manipulate the world around us. In this view, if we wish to catch the baseball, we simply predict that we will catch it and manipulate the external world to achieve this goal. The external world in this case includes our own body, since we can move our muscles so that our prediction becomes true.  
 But there are more layers to this prediction: moving our muscles is itself done via a prediction. I predict that I will see my arm in front of my face and this prediction is the signal to move the arm that way. Thus, all predictions are themselves active causes for something to happen, either in our mind's models or in the real world. This principle is called *active inference*.
 
+Many prediction errors need to be minimized, so the brain must prioritize. Whatever promises to minimize the prediction error most will be further analyzed. This is exactly the content of our attention [(Hohwy 2012)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3317264/).
+
 ### Hallucinating the world
 
 Resulting content of consciousness can be called a "controlled and controlling hallucination" [(Seth, Being You: A New Science of Consciousness, 2020)]. Since we only experience what our brain predicts, and what we predict in turn guides our actions, we hallucinate the world in a very controlled way so that we can control the world around us. This principle can be applied to many things. If we have a very strong prediction of something, we can selectively filter our inputs so that the prediction comes true, perfectly explaining confirmation bias [(Kaaronen 2018)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6262368/). Maintaining our body at a certain heart rate, temperature, etc. is also a prediction. If some external event forces primitive parts of our brain into changing these variables, our prediction is violated and our prediction generating parts might not be able to adjust reality. In this case, we must create a new mental model accounting for the changes our body experienced and better predicting the next states. This model might summarize the changes as a single concept which me call an emotion [(Seth 2013)](https://www.fil.ion.ucl.ac.uk/~karl/Interoceptive%20inference%20emotion%20and%20the%20embodied%20self..pdf). 
 
-active inference / free energy principle / Bayesian Brain
-homeostasis / emotions / attention as error weights (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3317264)
-confirmation bias
-current state / criticism 
+If we wish to achieve, create or maintain something, we hallucinate its existance into a kind of self-fulfilling promise.
+
+### Hallucinating yourself
+
+By the same logic, if we wish to preserve ourselves, we simply hallucinate our inner lives as an actor. Thus we will take actions that ensure that this prediction stays true, culminating in our desire to stay alive. This means that our consciousness is nothing but an illusion; the prediction that there will be someone there in the future and thus making it so. This is technically not a proper theory of consciousness per se, but a theory for how to examine consciousness. Through this lense, we can make testable predictions about contents of consciousnes (which include all high-level predictions include one about our own continued existance), our actions, emotions, perceptions and biases [(Seth 2021)](https://pubmed.ncbi.nlm.nih.gov/33280521/).  
+
+
+### Stances (according to me)
+
+| Topic | Stance |
+| - | - |
+| Mind-Body Problem | Consciousness is a product of the same predictions that govern all of our actions through active inferrence |
+| Chinese Room | No direct stance. If one can construct a Chinese room without using any kind of predictive systems, it will not be conscious. It is however not clear if such a room could fully emulate a human being. |
+| Philosophical Zombies | Consciousness is an automatic product of our prediction generating brain, thus a philosophical zombie that is physically identical to a normal human must get consciousness for free as well. They are not concievable. |
+| Teletransporter Paradox | No direct stance, but since consciousness is just an illusion resulting from certain data, it stands to reason that the same illusion can be created anywhere at any time, thus making it okay to kill the person left behind. |
+
 
 ## Integrated Information Theory
 
