@@ -518,7 +518,7 @@ If I did a good job, you will have noticed how interconnected some of these theo
 I cannot remember who it was, but I remember a recent quote summarizing this development as a fractured web of consensus emerging. What exciting times we live in to learn more about ourselves.
 
 Some spots are still left fairly unexplored still. In my opinion, there is very little emphasis on memory, which seems to be a big part of the feeling of beeing the same person over time (TODO: ref patient with hippocampus removed). There are also some unusual states of mind such as the dissolution of the self reported after meditation and the consumption of psychedelics while the person in question is
-definitely still conscious. Although neuroscientists and consciousness researchers like to talk about this, no current theories have any explicit thoughts on these situations, even though they seem important edge cases that poke holes in our intuitions.
+definitely still conscious. Although neuroscientists and consciousness researchers like to talk about this, no current theories have any explicit thoughts on these situations, even though they seem important edge cases that poke holes in our intuitions. Illnesses that involve deterioration of the perceived consciousness like Alzheimer's seem promising to me as potentially overlooked sources for ideas.
 
 ## Footnotes
 
