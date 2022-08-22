@@ -11,10 +11,19 @@ tags:
 
 ![This post is about You: the mind's eye](assets/iris.png)
 
-Lorem ipsum dolor sit amet
+There are few academic lists of theories of consciousness (TODO ref) as well as sole good blog post series about specific ideas, but as far as I know, there is no casually
+approachable comprehensive list of current theories in a single post yet. Well, until now.  
+"Consciousness" is used here in the intentionally vague way Thomas Nagel (TODO ref) defined, namely the way that it feels to be something. As with some other terms, any further definition already makes assumptions that are debatable, and since this is not a
+post about semantics, we will hold on to the easy, intuitive definitions.  
 The term "theory" is used in a conversational way here. If you want more technical correctness, think "hypothesis" every time you read it.
 
-For your convenience, here are the relevant sections:
+No current theory gets everything right, and some feel more wrong to me than others. My goal here is to still give each of them a fair representation, limiting my personal commentary to the end of each section if possible.
+If any theory here seems completely misguided, that is certainly my fault and not the one of the original authors. I try do source all claims that are not well known already, so please do read the original text if what I describe seems weird.  
+At the end of each theory, I list the theory's stances on some problems that I find particularly interesting. Most of these stances are logical extrapolations that come from my own understanding if not noted otherwise. Again, if there seems to be
+faulty logic at work or the original author of a theory seems to contradict the opinion presented here, that is entirely on me and I would ve glad if you pointed it out in a comment.  
+The theories are ordered the way they are so that I can easily cross-referemce points I made in an earlier section. It is neuther a chronological nor a prioritized sorting.
+
+Alright, got the disclaimers put of the way. Time for the actual post. For your convenience, here are the relevant sections:
 
 - [Predictive processing](#Predictive-Processing)
 - [Mysterianism](#Mysterianism)
