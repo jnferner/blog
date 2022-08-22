@@ -511,6 +511,16 @@ This shares the substrate independence of some theories of consciousness, but in
 
 ## Conclusion
 
+What a ride! I hope I got all interesting current theories together. If you're missing your favorite theory of consciousness, please write a comment. Keep in mind that I intentionally left out the ones
+that mostly consist of correlates of consciousness, i.e. where but not necessarily why consciousness happens in the brain.
+
+If I did a good job, you will have noticed how interconnected some of these theories are. I feel like there are some evergreens that pop up quite often. Associating consciousness with a model of the self is quite popular, as is a focus on different organizations of information. Although there is no unified theory of everything yet and no theory addresses all aspects of conscious experience, we can centainly see the field converging on some consensus.
+I cannot remember who it was, but I remember a recent quote summarizing this development as a fractured web of consensus emerging. What exciting times we live in to learn more about ourselves.
+
+Some spots are still left fairly unexplored still. In my opinion, there is very little emphasis on memory, which seems to be a big part of the feeling of beeing the same person over time (TODO: ref patient with hippocampus removed). There are also some unusual states of mind such as the dissolution of the self reported after meditation and the consumption of psychedelics while the person in question is
+definitely still conscious. Although neuroscientists and consciousness researchers like to talk about this, no current theories have any explicit thoughts on these situations, even though they seem important edge cases that poke holes in our intuitions.
+
+## Footnotes
 
 [^0]: Not to be confused with a Chinese person; those are definitely conscious.
 
