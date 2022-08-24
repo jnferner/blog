@@ -7,5 +7,5 @@ span.post-time
 span.post-time= ' | '
   span.post-meta-item-icon
       i(class="fa fa-clock-o")
-      span.post-count= ' '+min2read(page.content)
+      span.post-count= ' '+min2read(page.content, {en: 260})
       span.post-meta-item-text= ' '+__('read_time')

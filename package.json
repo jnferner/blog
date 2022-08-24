@@ -6,7 +6,7 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "yarn hexo server --draft --open"
+    "serve": "hexo clean && hexo deploy && hexo server --draft --open"
   },
   "hexo": {
     "version": "5.4.0"
