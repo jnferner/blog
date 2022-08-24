@@ -12,16 +12,12 @@ date: 2022-07-29 09:31:10
 
 ![This post is about You: the mind's eye](assets/iris.png)
 
-There are few academic lists of theories of consciousness (TODO ref) as well as sole good blog post series about specific ideas, but as far as I know, there is no casually
-approachable comprehensive list of current theories in a single post yet. Well, until now.
-"Consciousness" is used here in the intentionally vague way Thomas Nagel (TODO ref) defined it, namely the way that it feels to be something. As with some other terms, any further definition already makes debatable assumptions, and since this is not a
-post about semantics, we will hold on to the easy, intuitive definitions.
+There are few academic lists of theories of consciousness (TODO ref) as well as sole good blog post series about specific ideas, but as far as I know, there is no casually approachable comprehensive list of current theories in a single post yet. Well, until now. "Consciousness" is used here in the intentionally vague way Thomas Nagel (TODO ref) defined it, namely the way that it feels to be something. As with some other terms, any further definition already makes debatable assumptions, and since this is not a post about semantics, we will hold on to the easy, intuitive definitions.
 The term "theory" is used in a conversational way here. If you want more technical correctness, think "hypothesis" every time you read it.
 
 No current theory gets everything right, and some feel more wrong to me than others. My goal here is to still give each of them a fair representation, limiting my commentary to the end of each section if possible.
 If any theory here seems completely misguided, that is certainly my fault and not one of the original authors. I try to source all claims that are not well known already, so please do read the original text if what I describe seems weird.
-At the end of each theory, I list the theory's stances on some problems that I find particularly interesting. Most of these stances are logical extrapolations that come from my understanding if not noted otherwise. Again, if there seems to be
-faulty logic at work or the original author of a theory seems to contradict the opinion presented here, that is entirely on me and I would be glad if you pointed it out in a comment.
+At the end of each theory, I list the theory's stances on some problems that I find particularly interesting. Most of these stances are logical extrapolations that come from my understanding if not noted otherwise. Again, if there seems to be faulty logic at work or the original author of a theory seems to contradict the opinion presented here, that is entirely on me and I would be glad if you pointed it out in a comment.
 The theories are ordered the way they are so that I can easily cross-reference points I made in an earlier section. It is neither chronological nor prioritized sorting.
 
 Alright, got the disclaimers out of the way. Time for the actual post. For your convenience, here are the relevant sections:
@@ -90,7 +86,7 @@ Here, my mind is also holding a conflicting set of beliefs: one thinks the resul
 
 TODO: Add ambiguous image like "My Wife and My Mother-in-Law". Just as I can flip between seeing a young and an old woman but never both at the same time, I can flip between the intuitive and the real answer to problems my intuition is not built for.
 
-Granted, I will probably always see my consciousness as magical, but that should not stop me from also knowing that it is not. Just as I can see the world as deterministic even though everything in my being screams against it, I believe one day someone will be able to see the way flesh and electricity, and even mere equations, give rise to consciousness
+Granted, I will probably always see my consciousness as magical, but that should not stop me from also knowing that it is not. Just as I can see the world as deterministic even though everything in my being screams against it, I believe one day someone will be able to see the way flesh and electricity, and even mere equations, give rise to consciousness.
 
 ### Stances (according to me)
 
@@ -215,20 +211,20 @@ Each time you experience consciousness, there is a nearly endless amount of expe
 This insight is formalized as your consciousness carrying *information* by being in a specific state distinct from others. The idea of information theory is a well-developed one, so we can use a measure called *Shannon entropy* to calculate how much information a given system has. The entropy *H* of a random variable *x* with a known probability *p(x)* can be expressed as
 {% katex %}
 H(x) := E[-\log_2 p(x)] = -\sum_{i=1}^N p(x_i) \log_2 p(x_i)
-{% endkatex %} 
+{% endkatex %}
 If all of our outcomes are just as likely, this simplifies to:
 {% katex %}
 H(x) = -\sum_{i=1}^N p(x_i) \log_2 p(x_i) = -\sum_{i=1}^N \frac{1}{N} \log_2 p(x_i)  \\
 = -\frac{1}{N} \sum_{i=1}^N\log_2 p(x_i) = -\frac{1}{N} N \log_2 p(x_i)  \\
 = -\log_2 p(x_i)
-{% endkatex %} 
+{% endkatex %}
 For example, the probability of a coin flip yielding heads is 0.5, so if the coin is flipped and it lands on heads, its information value is {% katex %}
 H(heads) = -\log_2 p(heads) = -\log_2 0.5 = 1
-{% endkatex %} 
+{% endkatex %}
 Let's repeat this for a fair die roll. Say we rolled a three. We get
 {% katex %}
 H(three) = -\log_2 p(three) = -\log_2 \frac{1}{6} \approx 2.6
-{% endkatex %} 
+{% endkatex %}
 Aha! Seems like a die roll creates more information than a coin flip. You can easily see that the entropy is higher for rare events.
 
 In other words, entropy can be interpreted as a measure of our surprise at the result. Imagine a friend comes up to you and tells you that they again didn't win the lottery. Are you surprised? Hardly. You probably don't know the exact probability of winning, but just hearing the word "lottery" created the assumption of a low probability of winning in your mind. [^10]
@@ -246,12 +242,12 @@ where H(A) and H(B) are the marginal entropies and H(A, B) is the joint entropy.
 ### Mutual Information in Action
 
 Let's do an example. Say system A consists of me tossing a three-sided die. System B is a lamp that starts turned off (represented by 0) and is turned on when I roll a three (represented by 1). We can express all possible scenarios in a table, where we write down the probability of a certain combination of states A and B happening.
-For example, the probability of A being 2 and B being 0 is one in three, because we have a probability of one in three, but the probability of A being 2 and B being 1 is zero because we only turn the lamp on when we roll a three. These values are the *joint probabilities*
+For example, the probability of A being 2 and B being 0 is one in three, because we have a probability of one in three, but the probability of A being 2 and B being 1 is zero because we only turn the lamp on when we roll a three. These values are the *joint probabilities*.
 
-| - | {% katex %} A = 1 {% endkatex %} | {% katex %} A = 2 {% endkatex %} | {% katex %} A = 3 {% endkatex %} |
+| - | {% katex %}A = 1 {% endkatex %}| {% katex %}A = 2 {% endkatex %}| {% katex %}A = 3 {% endkatex %}|
 | - | - | - | - |
-| {% katex %} B = 0 {% endkatex %} | {% katex %}\frac{1}{3} {% endkatex %} |{% katex %}\frac{1}{3} {% endkatex %} | 0 |
-| {% katex %} B = 1 {% endkatex %} | 0 | 0 | {% katex %}\frac{1}{3} {% endkatex %} |
+| {% katex %}B = 0 {% endkatex %}| {% katex %}\frac{1}{3} {% endkatex %}|{% katex %}\frac{1}{3} {% endkatex %}| 0 |
+| {% katex %}B = 1 {% endkatex %}| 0 | 0 | {% katex %}\frac{1}{3} {% endkatex %}|
 
 The joint entropy uses all those joint probabilities inside the table. Reading the table from left to right, top to bottom, we get:
 {% katex %}
@@ -260,27 +256,27 @@ The joint entropy uses all those joint probabilities inside the table. Reading t
     - 0 \log_2 0 - 0 \log_2 0 - \frac{1}{3} \log_2 \frac{1}{3}  \\
     = 3 \frac{1}{3} \log_2 \frac{1}{3} =  \log_2 \frac{1}{3}
     \approx 1.6
-{% endkatex %} 
+{% endkatex %}
 
 We can extend this table by writing the sums of the probabilities in the rows or columns in the margins, yielding the aptly named *marginal probabilities*:
 
-| - | {% katex %} A = 1 {% endkatex %} | {% katex %} A = 2 {% endkatex %} | {% katex %} A = 3 {% endkatex %} | Marginals of B |
+| - | {% katex %}A = 1 {% endkatex %}| {% katex %}A = 2 {% endkatex %}| {% katex %}A = 3 {% endkatex %}| Marginals of B |
 | - | - | - | - | - |
-| **{% katex %} B = 0 {% endkatex %}** | {% katex %}\frac{1}{3} {% endkatex %} |{% katex %}\frac{1}{3} {% endkatex %} | 0 | {% katex %}\frac{2}{3} {% endkatex %} |
-| **{% katex %} B = 1 {% endkatex %}** | 0 | 0 | {% katex %}\frac{1}{3} {% endkatex %} | {% katex %}\frac{1}{3} {% endkatex %} |
-| **Marginals of A** | {% katex %}\frac{1}{3} {% endkatex %} |{% katex %}\frac{1}{3} {% endkatex %} | {% katex %}\frac{1}{3} {% endkatex %} | - |
+| **{% katex %}B = 0 {% endkatex %}** | {% katex %}\frac{1}{3} {% endkatex %}|{% katex %}\frac{1}{3} {% endkatex %}| 0 | {% katex %}\frac{2}{3} {% endkatex %}|
+| **{% katex %}B = 1 {% endkatex %}** | 0 | 0 | {% katex %}\frac{1}{3} {% endkatex %}| {% katex %}\frac{1}{3} {% endkatex %}|
+| **Marginals of A** | {% katex %}\frac{1}{3} {% endkatex %}|{% katex %}\frac{1}{3} {% endkatex %}| {% katex %}\frac{1}{3} {% endkatex %}| - |
 
 Now, we can calculate the constituents of the mutual information! The marginal entropy of A is just the entropy of the marginal probabilities of A:
 {% katex %}
     H(A) = -\sum_{i=1}^N p(A_i) \log_2 p(A_i) = - \frac{1}{3} \log_2 \frac{1}{3} - \frac{1}{3} \log_2 \frac{1}{3} - \frac{1}{3} \log_2 \frac{1}{3}  \\
     = - 3 \frac{1}{3} \log_2 \frac{1}{3} = - \log_2 \frac{1}{3}  \\
     \approx 1.6
-{% endkatex %} 
+{% endkatex %}
 In the same vein, we get the following for the marginal probabilities of B (try it for yourself if you've never done this before!):
 {% katex %}
     H(B) = -\sum_{i=1}^N p(B_i) \log_2 p(B_i) = - \frac{2}{3} \log_2 \frac{2}{3} - \frac{1}{3} \log_2 \frac{1}{3} \\
     \approx 0.9
-{% endkatex %} 
+{% endkatex %}
 Finally, we can calculate our mutual information:
 {% katex %}
     I(A,B) = H(A) + H(B) - H(A,B) \approx 1.6 + 0.9 - 1.6 \approx 0.9
@@ -291,26 +287,26 @@ Finally, we can calculate our mutual information:
 For real, messy systems, we still need to build up a probability table. We built the last one by using a priori knowledge about the systems, namely that the lamp does not influence the die and that the die has a one in three chance of rolling any given number. In reality, we don't have this a priori knowledge; we don't know how likely each state of A or B is individually and we might be only able to measure them together. To do this, we use a little trick: to check the effect of A on B, we replace A with an entirely random source of inputs and see how B behaves. Completely random means maximum entropy, thus we can formalize this as replacing A by {% katex %}A_{H_{max}}{% endkatex %}. Measuring the mutual information after this manipulation results in the *effective information (EI)*  [(Tononi 2004)](https://bmcneurosci.biomedcentral.com/articles/10.1186/1471-2202-5-42):
 {% katex %}
 EI(A \rightarrow B) := I(A_{H_{max}}, B)
-{% endkatex %} 
+{% endkatex %}
 We can both the effect of A on B and vice versa. The sum of both is called the *cause/effect repertoire*:
 {% katex %}
 EI(A \leftrightharpoons B) = EI(A \rightarrow B) + EI(B \rightarrow A)
-{% endkatex %} 
+{% endkatex %}
 Let's calculate this as well! Luckily for us, setting A to maximum entropy is the same as using a dice roll to determine the value of A, which we already do! So, for our scenario (but not in general!):
 {% katex %}
  EI(A \rightarrow B) = I(A_{H_{max}}, B) = I(A, B) \approx 0.9
-{% endkatex %} 
+{% endkatex %}
 
 The other way around is also easy since we defined it as our lamp not having any effect on the die. If we treat the state of B as a completely random value of either 0 or 1, i.e. a coin flip, we get the following probability table, reflective of two completely independent variables:
 
-| - | {% katex %} A = 1 {% endkatex %} | {% katex %} A = 2 {% endkatex %} | {% katex %} A = 3 {% endkatex %} | Marginals of {% katex %}B_{H_{max}}{% endkatex %} |
+| - | {% katex %}A = 1 {% endkatex %}| {% katex %}A = 2 {% endkatex %}| {% katex %}A = 3 {% endkatex %}| Marginals of {% katex %}B_{H_{max}}{% endkatex %}|
 | - | - | - | - | - |
-| **{% katex %} B_{H_{max}} = 0 {% endkatex %}** | {% katex %}\frac{1}{6} {% endkatex %} |{% katex %}\frac{1}{6} {% endkatex %} | {% katex %}\frac{1}{6} {% endkatex %} | {% katex %}\frac{3}{6}=\frac{1}{2} {% endkatex %} |
-| **{% katex %} B_{H_{max}} = 1 {% endkatex %}** | {% katex %}\frac{1}{6} {% endkatex %} | {% katex %}\frac{1}{6} {% endkatex %} | {% katex %}\frac{1}{6} {% endkatex %} | {% katex %}\frac{3}{6}=\frac{1}{2} {% endkatex %} |
-| **Marginals of A** | {% katex %}\frac{2}{6}=\frac{1}{3} {% endkatex %} |{% katex %}\frac{2}{6}=\frac{1}{3} {% endkatex %} | {% katex %}\frac{2}{6}=\frac{1}{3} {% endkatex %} | - |
+| **{% katex %}B_{H_{max}} = 0 {% endkatex %}** | {% katex %}\frac{1}{6} {% endkatex %}|{% katex %}\frac{1}{6} {% endkatex %}| {% katex %}\frac{1}{6} {% endkatex %}| {% katex %}\frac{3}{6}=\frac{1}{2} {% endkatex %}|
+| **{% katex %}B_{H_{max}} = 1 {% endkatex %}** | {% katex %}\frac{1}{6} {% endkatex %}| {% katex %}\frac{1}{6} {% endkatex %}| {% katex %}\frac{1}{6} {% endkatex %}| {% katex %}\frac{3}{6}=\frac{1}{2} {% endkatex %}|
+| **Marginals of A** | {% katex %}\frac{2}{6}=\frac{1}{3} {% endkatex %}|{% katex %}\frac{2}{6}=\frac{1}{3} {% endkatex %}| {% katex %}\frac{2}{6}=\frac{1}{3} {% endkatex %}| - |
 
 Since we already did all of these calculations, I'll skip the step-by-step explanations for how to get the effective information / mutual information now. Again, if you've never done this kind of probability juggling, feel free to try it for yourself! In any case, even if you don't want to calculate anything, take a moment and ask yourself which result you expect.
-Given that B does not influence A, what do you think {% katex %}EI(B \rightarrow A){% endkatex %} should be?
+Given that B does not influence A, what do you think {% katex %}EI(B \rightarrow A){% endkatex %}should be?
 
 The maths says:
 {% katex %}
@@ -320,7 +316,7 @@ H(A,B_{H_{max}}) \approx 2.6 \\
 \\
 EI(B \rightarrow A) = I(A, B_{H_{max}}) = H(A) + H(B_{H_{max}}) - H(A,B_{H_{max}}) \\
 \approx 1.6 + 1 - 2.6 = 0
-{% endkatex %} 
+{% endkatex %}
 Unsurprisingly, it is zero!
 Thus, our cause/effect repertoire has the following value:
 {% katex %}
@@ -334,7 +330,7 @@ This is the final operation we need to get to the elusive Φ. We are interested 
 
 We take a given system and partition it into two subsystems A and B. We then calculate the cause/effect repertoire as we did before. Repeat this for all possible subsystems. The smaller the systems, the smaller the cause/effect repertoire, so to compare them, we need a more sophisticated strategy than just comparing the numbers. In my opinion, this part changed the most over the years in comparison to the original publication. I'll skip the now obsolete details and summarize the new parts by saying we choose one of several different ways to measure how similar the cause/effect repertoires of the partitions are to those of the unpartitioned, whole system. Sum these up and you get Φ. Whichever way you divide the system, the smallest Φ you can get is the one that is the most cohesive unit of indivisibility, because it will lose the most information in proportion to its complexity.
 
-In our example, there is no way to partition anything, since A and B are already indivisible. Thus, our Φ is still {% katex %} \approx 0.9 {% endkatex %}.
+In our example, there is no way to partition anything, since A and B are already indivisible. Thus, our Φ is still {% katex %}\approx 0.9 {% endkatex %}.
 
 ### Getting to Φ
 
@@ -491,8 +487,7 @@ Roger Penrose, who jointly received a Nobel prize with other scientists in 2020 
 
 If not an algorithm, just what is running consciousness in the brain? If the brain is not a kind of Turing machine, what is it? As a physicist, Penrose searches through physics for a solution. At first glance, the best contender seems to be extending the standard Turing machine with quantum properties such as superpositions and true randomness. Unfortunately, it turns out that although a quantum Turing machine can be faster than a regular Turing machine, it still cannot compute anything new. [Deutsch, 1985](TODO: Quantum theory, the Church-Turing principle, and the universal quantum computer.). It is uncontroversial to state that some part of the quantum world has not been fully understood yet, after all, we still have no commonly accepted theory that unifies quantum theory with general relativity. In this vein, Penrose suggests that we have simply not yet found the mechanisms required for a more sophisticated quantum Turing machine to produce non-computational behavior.
 
-Now we only need a place for this quantum behavior to occur, since a neuron doesn't look or behave like a quantum phenomenon. Penrose's co-author Hameroff claims that he has identified a smaller unit of computation inside every cell: the microtubules [(Hameroff 1984)](TODO Cellular automata in
-cytoskeletal lattice proteins.). These little tubes are usually seen in biology as big support beams that help a cell maintain its structure. Especially in neurons, they also serve as highways for transporting substances across the cell, such as neurotransmitters. Together, Penrose and Hameroff posit that since microtubules are the computational unit of each neuron and that consciousness requires a non-computational quantum process, each microtubule is exhibiting quantum behavior. Neurons merely magnify the quantum behavior and allow interactions with physical systems like our muscles (Penrose, Shadows of the Mind, 1994). They provide an outline for how such a process might look like involving quantum gravity called *Object Reduction (OR)*, but the key idea here is just that *any* such process takes place and not how exactly it looks, so we will not look at OR itself.
+Now we only need a place for this quantum behavior to occur, since a neuron doesn't look or behave like a quantum phenomenon. Penrose's co-author Hameroff claims that he has identified a smaller unit of computation inside every cell: the microtubules [(Hameroff 1984)](TODO Cellular automata in cytoskeletal lattice proteins.). These little tubes are usually seen in biology as big support beams that help a cell maintain its structure. Especially in neurons, they also serve as highways for transporting substances across the cell, such as neurotransmitters. Together, Penrose and Hameroff posit that since microtubules are the computational unit of each neuron and that consciousness requires a non-computational quantum process, each microtubule is exhibiting quantum behavior. Neurons merely magnify the quantum behavior and allow interactions with physical systems like our muscles (Penrose, Shadows of the Mind, 1994). They provide an outline for how such a process might look like involving quantum gravity called *Object Reduction (OR)*, but the key idea here is just that *any* such process takes place and not how exactly it looks, so we will not look at OR itself.
 
 ### Consciousness from Orchestration
 
@@ -513,14 +508,12 @@ This shares the substrate independence of some theories of consciousness, but in
 
 ## Conclusion
 
-What a ride! I hope I got all the interesting current theories together. If you're missing your favorite theory of consciousness, please write a comment. Keep in mind that I intentionally left out the ones
-that mostly consist of correlates of consciousness, explaining where but not necessarily why consciousness happens in the brain.
+What a ride! I hope I got all the interesting current theories together. If you're missing your favorite theory of consciousness, please write a comment. Keep in mind that I intentionally left out the ones that mostly consist of correlates of consciousness, explaining where but not necessarily why consciousness happens in the brain.
 
 If I did a good job, you will have noticed how interconnected some of these theories are. I feel like some evergreens pop up quite often. Associating consciousness with a model of the self is quite popular, as is a focus on different organizations of information. Although there is no unified theory of everything yet and no theory addresses all aspects of conscious experience, we can certainly see the field converging on some consensus.
 I cannot remember who it was, but I remember a recent quote summarizing this development as a fractured web of consensus emerging. What exciting times we live in to learn more about ourselves.
 
-Some spots are still left fairly unexplored. In my opinion, there is very little emphasis on memory, which seems to be a big part of the feeling of being the same person over time (TODO: ref patient with hippocampus removed). There are also some unusual states of mind such as the dissolution of the self-reported after meditation and the consumption of psychedelics while the person in question is
-still conscious. Although neuroscientists and consciousness researchers like to talk about this, no current theories have any explicit thoughts on these situations, even though they seem important edge cases that poke holes in our intuitions. Illnesses that involve deterioration of the perceived consciousness like Alzheimer's seem promising to me as potentially overlooked sources for ideas.
+Some spots are still left fairly unexplored. In my opinion, there is very little emphasis on memory, which seems to be a big part of the feeling of being the same person over time (TODO: ref patient with hippocampus removed). There are also some unusual states of mind such as the dissolution of the self-reported after meditation and the consumption of psychedelics while the person in question is still conscious. Although neuroscientists and consciousness researchers like to talk about this, no current theories have any explicit thoughts on these situations, even though they seem important edge cases that poke holes in our intuitions. Illnesses that involve deterioration of the perceived consciousness like Alzheimer's seem promising to me as potentially overlooked sources for ideas.
 
 ## Footnotes
 
@@ -539,7 +532,7 @@ This nuance is meant to allow the possibility that we might find the solution bu
 
 [^6]: If this is not relatable, try listing something else. The important part of this exercise is that all methodical approaches must fail to produce all items and you must in the end solely rely on whatever your brain is doing when you're just trying to remember. Think tip-of-the-tongue phenomenon.
 
-[^7]: And possibly "wall", until the day he throws a plate at the wall and learns that the wall is not itself responsible for the bouncy characteristic of certain materials, instead getting his "scolding" symbol activated
+[^7]: And possibly "wall", until the day he throws a plate at the wall and learns that the wall is not itself responsible for the bouncy characteristic of certain materials, instead getting his "scolding" symbol activated.
 
 [^8]: Or more specifically a heterarchy, which is an organization where an item cannot have a unique rank in comparison to others. The item has either no rank or multiple different ones.
 
