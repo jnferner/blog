@@ -118,7 +118,7 @@ This theory of consciousness is quite different from the others discussed insofa
 | Mind-Body Problem | The mind exists independently of any physical reality, so the body does not give rise to it at all. |
 | Chinese Room | Since physical stuff cannot create mind stuff, the Chinese room is not conscious. |
 | Philosophical Zombies | Conceivable and realistic, they are just people without mind stuff |
-| Teletransporter Paradox | Since mind stuff is indivisible, the person on the other end cannot be you. Physical stuff cannot create mind stuff, the person on the other end cannot be conscious, making them a philosophical zombie, since per the premise of the thought experiment they are indistinguishable from you. Since philosophical zombies are inconceivable, the premise must be flawed: such a teleporter cannot exist in the first place. |
+| Teletransporter Paradox | Since mind stuff is indivisible, the person on the other end cannot be you. Physical stuff cannot create mind stuff, the person on the other end cannot be conscious, making them a philosophical zombie, since per the premise of the thought experiment they are indistinguishable from you.
 
 
 ## Global Workspace Theory
